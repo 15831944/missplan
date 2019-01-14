@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\bin\Debug\netstandard2.0\SharpAdbClient.deps.json
+D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\bin\Debug\netstandard2.0\SharpAdbClient.dll
+D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\bin\Debug\netstandard2.0\SharpAdbClient.pdb
+D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\SharpAdbClient.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\SharpAdbClient.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\SharpAdbClient.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\SharpAdbClient.dll
+D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\SharpAdbClient.pdb

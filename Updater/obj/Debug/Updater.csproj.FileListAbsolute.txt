@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\Updater\bin\Debug\Updater.exe.config
+D:\missplan\MissionPlanner\Updater\bin\Debug\Updater.exe
+D:\missplan\MissionPlanner\Updater\bin\Debug\Updater.pdb
+D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.Properties.Resources.resources
+D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.csproj.GenerateResource.cache
+D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.exe
+D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.pdb

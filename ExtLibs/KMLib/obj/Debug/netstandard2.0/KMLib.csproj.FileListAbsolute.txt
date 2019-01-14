@@ -1,0 +1,12 @@
+D:\missplan\MissionPlanner\ExtLibs\KMLib\bin\Debug\netstandard2.0\KMLib.deps.json
+D:\missplan\MissionPlanner\ExtLibs\KMLib\bin\Debug\netstandard2.0\KMLib.dll
+D:\missplan\MissionPlanner\ExtLibs\KMLib\bin\Debug\netstandard2.0\KMLib.pdb
+D:\missplan\MissionPlanner\ExtLibs\KMLib\bin\Debug\netstandard2.0\Core.dll
+D:\missplan\MissionPlanner\ExtLibs\KMLib\bin\Debug\netstandard2.0\Core.pdb
+D:\missplan\MissionPlanner\ExtLibs\KMLib\obj\Debug\netstandard2.0\KMLib.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\KMLib\obj\Debug\netstandard2.0\KMLib.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\KMLib\obj\Debug\netstandard2.0\KMLib.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\KMLib\obj\Debug\netstandard2.0\KMLib.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\KMLib\obj\Debug\netstandard2.0\KMLib.csproj.CopyComplete
+D:\missplan\MissionPlanner\ExtLibs\KMLib\obj\Debug\netstandard2.0\KMLib.dll
+D:\missplan\MissionPlanner\ExtLibs\KMLib\obj\Debug\netstandard2.0\KMLib.pdb

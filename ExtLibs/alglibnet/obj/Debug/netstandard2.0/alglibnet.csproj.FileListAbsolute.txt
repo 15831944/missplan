@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\alglibnet\bin\Debug\netstandard2.0\alglibnet.deps.json
+D:\missplan\MissionPlanner\ExtLibs\alglibnet\bin\Debug\netstandard2.0\alglibnet.dll
+D:\missplan\MissionPlanner\ExtLibs\alglibnet\bin\Debug\netstandard2.0\alglibnet.pdb
+D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.dll
+D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.pdb

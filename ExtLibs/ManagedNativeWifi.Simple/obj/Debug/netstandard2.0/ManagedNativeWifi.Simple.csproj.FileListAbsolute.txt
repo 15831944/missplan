@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\ManagedNativeWifi.Simple\bin\Debug\netstandard2.0\ManagedNativeWifi.Simple.deps.json
+D:\missplan\MissionPlanner\ExtLibs\ManagedNativeWifi.Simple\bin\Debug\netstandard2.0\ManagedNativeWifi.Simple.dll
+D:\missplan\MissionPlanner\ExtLibs\ManagedNativeWifi.Simple\bin\Debug\netstandard2.0\ManagedNativeWifi.Simple.pdb
+D:\missplan\MissionPlanner\ExtLibs\ManagedNativeWifi.Simple\obj\Debug\netstandard2.0\ManagedNativeWifi.Simple.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\ManagedNativeWifi.Simple\obj\Debug\netstandard2.0\ManagedNativeWifi.Simple.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\ManagedNativeWifi.Simple\obj\Debug\netstandard2.0\ManagedNativeWifi.Simple.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\ManagedNativeWifi.Simple\obj\Debug\netstandard2.0\ManagedNativeWifi.Simple.dll
+D:\missplan\MissionPlanner\ExtLibs\ManagedNativeWifi.Simple\obj\Debug\netstandard2.0\ManagedNativeWifi.Simple.pdb

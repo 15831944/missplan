@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GDAL.NET</id>
+    <version>1.0.0</version>
+    <authors>Michael Oborne</authors>
+    <owners>Michael Oborne</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="GMap.NET.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="GDAL" version="1.11.1" exclude="Build,Analyzers" />
+        <dependency id="MP.GDAL.Native" version="2.2.3" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="log4net" version="2.0.8" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\GDAL.NET.dll" target="lib\netstandard2.0\GDAL.NET.dll" />
+  </files>
+</package>

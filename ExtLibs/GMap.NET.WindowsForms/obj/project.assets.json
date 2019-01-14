@@ -1,0 +1,460 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "SkiaSharp/1.60.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "build": {
+          "build/net45/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-armel"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-x86"
+          },
+          "runtimes/win7-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "GMap.NET.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        }
+      },
+      "LibTessDotNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        }
+      },
+      "SvgNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LibTessDotNet": "1.0.0",
+          "SkiaSharp": "1.60.3",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/SvgNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvgNet.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "SkiaSharp/1.60.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "build": {
+          "build/net45/_._": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "GMap.NET.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        }
+      },
+      "LibTessDotNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        }
+      },
+      "SvgNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LibTessDotNet": "1.0.0",
+          "SkiaSharp": "1.60.3",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/SvgNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvgNet.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "SkiaSharp/1.60.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "build": {
+          "build/net45/_._": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "GMap.NET.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        }
+      },
+      "LibTessDotNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        }
+      },
+      "SvgNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LibTessDotNet": "1.0.0",
+          "SkiaSharp": "1.60.3",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/SvgNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvgNet.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "SkiaSharp/1.60.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "build": {
+          "build/net45/_._": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "GMap.NET.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        }
+      },
+      "LibTessDotNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        }
+      },
+      "SvgNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LibTessDotNet": "1.0.0",
+          "SkiaSharp": "1.60.3",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/SvgNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvgNet.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SkiaSharp/1.60.3": {
+      "sha512": "aOX0ksqw2Xwkjhi8PpL9YsbYhNDveS9FzJglCTC1HzrTXkwEoNi+DGA3Wh2zVx2qGtW/UbVVpyJ+/KTSV9xSLQ==",
+      "type": "package",
+      "path": "skiasharp/1.60.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net45/SkiaSharp.targets",
+        "build/tizen40/SkiaSharp.targets",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.xml",
+        "lib/Xamarin.TVOS/SkiaSharp.dll",
+        "lib/Xamarin.TVOS/SkiaSharp.xml",
+        "lib/Xamarin.WatchOS/SkiaSharp.dll",
+        "lib/Xamarin.WatchOS/SkiaSharp.xml",
+        "lib/Xamarin.iOS/SkiaSharp.dll",
+        "lib/Xamarin.iOS/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/tizen-armel/native/libSkiaSharp.so",
+        "runtimes/tizen-x86/native/libSkiaSharp.so",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win7-x64/native/libSkiaSharp.dll",
+        "runtimes/win7-x86/native/libSkiaSharp.dll",
+        "skiasharp.1.60.3.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "System.Drawing.Common/4.5.1": {
+      "sha512": "m3c7Fe/CS/jZ/nLBrxCCh52dYiC33GPbGfcF4CiVukb8+p121XUTHxs6sYKbWfvDVD8JssHcM+HVFLtzl3X3Xw==",
+      "type": "package",
+      "path": "system.drawing.common/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "system.drawing.common.4.5.1.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "GMap.NET.Core/1.0.0": {
+      "type": "project",
+      "path": "../GMap.NET.Core/GMap.NET.Core.csproj",
+      "msbuildProject": "../GMap.NET.Core/GMap.NET.Core.csproj"
+    },
+    "LibTessDotNet/1.0.0": {
+      "type": "project",
+      "path": "../LibTessDotNet/LibTessDotNet.csproj",
+      "msbuildProject": "../LibTessDotNet/LibTessDotNet.csproj"
+    },
+    "SvgNet/1.0.0": {
+      "type": "project",
+      "path": "../SvgNet/SvgNet.csproj",
+      "msbuildProject": "../SvgNet/SvgNet.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "GMap.NET.Core >= 1.0.0",
+      "SvgNet >= 1.0.0",
+      "System.Drawing.Common >= 4.5.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\networker\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\missplan\\MissionPlanner\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj",
+      "projectName": "GMap.NET.WindowsForms",
+      "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj",
+      "packagesPath": "C:\\Users\\networker\\.nuget\\packages\\",
+      "outputPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\GMap.NET.WindowsForms\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "D:\\missplan\\MissionPlanner\\.nuget\\NuGet.Config",
+        "C:\\Users\\networker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "D:\\missplan\\MissionPlanner\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+              "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+            },
+            "D:\\missplan\\MissionPlanner\\ExtLibs\\SvgNet\\SvgNet.csproj": {
+              "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\SvgNet\\SvgNet.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[4.5.1, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

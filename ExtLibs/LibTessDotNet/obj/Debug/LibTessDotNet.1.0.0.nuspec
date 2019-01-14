@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LibTessDotNet</id>
+    <version>1.0.0</version>
+    <authors>LibTessDotNet</authors>
+    <owners>LibTessDotNet</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C# port of the famous GLU Tesselator</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\bin\Debug\netstandard2.0\LibTessDotNet.dll" target="lib\netstandard2.0\LibTessDotNet.dll" />
+  </files>
+</package>

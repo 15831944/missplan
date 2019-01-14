@@ -1,0 +1,17 @@
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\GDAL.NET.deps.json
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\GDAL.NET.dll
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\GDAL.NET.pdb
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\GMap.NET.Core.dll
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\LibTessDotNet.dll
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\SvgNet.dll
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\GMap.NET.Core.pdb
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\LibTessDotNet.pdb
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\SvgNet.pdb
+D:\missplan\MissionPlanner\ExtLibs\GDAL\bin\Debug\netstandard2.0\zh-Hans\GMap.NET.Core.resources.dll
+D:\missplan\MissionPlanner\ExtLibs\GDAL\obj\Debug\netstandard2.0\GDAL.NET.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\GDAL\obj\Debug\netstandard2.0\GDAL.NET.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\GDAL\obj\Debug\netstandard2.0\GDAL.NET.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\GDAL\obj\Debug\netstandard2.0\GDAL.NET.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\GDAL\obj\Debug\netstandard2.0\GDAL.NET.csproj.CopyComplete
+D:\missplan\MissionPlanner\ExtLibs\GDAL\obj\Debug\netstandard2.0\GDAL.NET.dll
+D:\missplan\MissionPlanner\ExtLibs\GDAL\obj\Debug\netstandard2.0\GDAL.NET.pdb

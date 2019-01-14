@@ -1,0 +1,11 @@
+D:\missplan\MissionPlanner\ExtLibs\solo\bin\Debug\netstandard2.0\solo.dll.config
+D:\missplan\MissionPlanner\ExtLibs\solo\bin\Debug\netstandard2.0\solo.deps.json
+D:\missplan\MissionPlanner\ExtLibs\solo\bin\Debug\netstandard2.0\solo.dll
+D:\missplan\MissionPlanner\ExtLibs\solo\bin\Debug\netstandard2.0\solo.pdb
+D:\missplan\MissionPlanner\ExtLibs\solo\obj\Debug\netstandard2.0\solo.dll.config
+D:\missplan\MissionPlanner\ExtLibs\solo\obj\Debug\netstandard2.0\solo.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\solo\obj\Debug\netstandard2.0\solo.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\solo\obj\Debug\netstandard2.0\solo.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\solo\obj\Debug\netstandard2.0\solo.dll
+D:\missplan\MissionPlanner\ExtLibs\solo\obj\Debug\netstandard2.0\solo.pdb
+D:\missplan\MissionPlanner\ExtLibs\solo\obj\Debug\netstandard2.0\solo.csprojAssemblyReference.cache

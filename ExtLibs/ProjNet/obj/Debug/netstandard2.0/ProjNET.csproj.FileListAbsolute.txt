@@ -1,0 +1,9 @@
+D:\missplan\MissionPlanner\ExtLibs\ProjNet\bin\Debug\netstandard2.0\ProjNET.deps.json
+D:\missplan\MissionPlanner\ExtLibs\ProjNet\bin\Debug\netstandard2.0\ProjNET.dll
+D:\missplan\MissionPlanner\ExtLibs\ProjNet\bin\Debug\netstandard2.0\ProjNET.pdb
+D:\missplan\MissionPlanner\ExtLibs\ProjNet\obj\Debug\netstandard2.0\ProjNET.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\ProjNet\obj\Debug\netstandard2.0\ProjNET.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\ProjNet\obj\Debug\netstandard2.0\ProjNET.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\ProjNet\obj\Debug\netstandard2.0\ProjNET.dll
+D:\missplan\MissionPlanner\ExtLibs\ProjNet\obj\Debug\netstandard2.0\ProjNET.pdb
+D:\missplan\MissionPlanner\ExtLibs\ProjNet\obj\Debug\netstandard2.0\ProjNET.csprojAssemblyReference.cache

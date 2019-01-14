@@ -1,0 +1,12 @@
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\bin\Debug\netstandard2.0\SvgNet.deps.json
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\bin\Debug\netstandard2.0\SvgNet.dll
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\bin\Debug\netstandard2.0\SvgNet.pdb
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\bin\Debug\netstandard2.0\LibTessDotNet.dll
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\bin\Debug\netstandard2.0\LibTessDotNet.pdb
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\obj\Debug\netstandard2.0\SvgNet.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\obj\Debug\netstandard2.0\SvgNet.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\obj\Debug\netstandard2.0\SvgNet.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\obj\Debug\netstandard2.0\SvgNet.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\obj\Debug\netstandard2.0\SvgNet.csproj.CopyComplete
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\obj\Debug\netstandard2.0\SvgNet.dll
+D:\missplan\MissionPlanner\ExtLibs\SvgNet\obj\Debug\netstandard2.0\SvgNet.pdb

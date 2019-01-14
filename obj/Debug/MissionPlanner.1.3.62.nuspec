@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MissionPlanner</id>
+    <version>1.3.62</version>
+    <authors>Michael Oborne</authors>
+    <owners>Michael Oborne</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Mission Planner ground control station for ardupilot</description>
+    <copyright>Copyright © Michael Oborne 2010-2018</copyright>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="AltitudeAngelWings" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MissionPlanner.Antenna" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Arduino" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MissionPlanner.ArduPilot" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="AviFile" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="BSE.Windows.Forms" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MissionPlanner.Comms" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MissionPlanner.Controls" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="GDAL.NET" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="GeoUtility" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="GMap.NET.Core" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="GMap.NET.WindowsForms" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MissionPlanner.HIL" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="SharpZipLib" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="KMLib" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="LibVLC.NET" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ManagedNativeWifi.Simple" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MissionPlanner.Maps" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MAVLink" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MetaDataExtractor" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="px4uploader" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="SharpAdbClient" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="SharpKml" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="solo" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MissionPlanner.Strings" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="tlogThumbnailHandler" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="Transitions" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MissionPlanner.Utilities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="WebCamService" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="ZedGraph" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Zeroconf" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Updater" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="CSMatIO" version="1.0.20" exclude="Build,Analyzers" />
+        <dependency id="DirectShowLib" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Data" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Data.Forms" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Extensions" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Modeling.Forms" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Mono" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Positioning" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Projections" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Projections.Forms" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Serialization" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Symbology" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Symbology.Forms" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="DotSpatial.Topology" version="1.9.0" exclude="Build,Analyzers" />
+        <dependency id="Flurl" version="2.8.0" exclude="Build,Analyzers" />
+        <dependency id="Flurl.Http" version="2.3.2" exclude="Build,Analyzers" />
+        <dependency id="GDAL" version="1.11.1" exclude="Build,Analyzers" />
+        <dependency id="GeoJSON.Net" version="1.1.64" exclude="Build,Analyzers" />
+        <dependency id="IronPython" version="2.7.8.1" exclude="Build,Analyzers" />
+        <dependency id="IronPython.StdLib" version="2.7.8.1" exclude="Build,Analyzers" />
+        <dependency id="MP.GDAL.Native" version="2.2.3" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Win32.Registry" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+        <dependency id="OpenTK" version="3.0.1" exclude="Build,Analyzers" />
+        <dependency id="OpenTK.GLControl" version="3.0.1" exclude="Build,Analyzers" />
+        <dependency id="SSH.NET" version="2016.1.0" exclude="Build,Analyzers" />
+        <dependency id="SharpDX" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="SharpDX.DirectInput" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="SixLabors.ImageSharp" version="1.0.0-beta0005" exclude="Build,Analyzers" />
+        <dependency id="SixLabors.ImageSharp.Drawing" version="1.0.0-beta0005" exclude="Build,Analyzers" />
+        <dependency id="SkiaSharp" version="1.60.3" exclude="Build,Analyzers" />
+        <dependency id="SkiaSharp.Views" version="1.60.3" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="4.5.1" exclude="Build,Analyzers" />
+        <dependency id="System.IO.Ports" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reactive" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reactive.Core" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="System.Reactive.Linq" version="4.1.0" exclude="Build,Analyzers" />
+        <dependency id="System.Text.Encoding.CodePages" version="4.5.0" exclude="Build,Analyzers" />
+        <dependency id="System.Threading.Tasks" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="Unofficial.ObjectListView" version="2.6.0" exclude="Build,Analyzers" />
+        <dependency id="log4net" version="2.0.8" exclude="Build,Analyzers" />
+        <dependency id="zlib.net" version="1.0.4" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Management" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Speech" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" targetFramework=".NETFramework4.6.1" />
+      <frameworkAssembly assemblyName="System.Web.Extensions" targetFramework=".NETFramework4.6.1" />
+    </frameworkAssemblies>
+    <contentFiles>
+      <files include="any/net461/acsimplepids.xml" buildAction="Content" />
+      <files include="any/net461/aircraft.xml" buildAction="Content" />
+      <files include="any/net461/appxmanifest.xml" buildAction="Content" />
+      <files include="any/net461/ArduCopterConfig.xml" buildAction="Content" />
+      <files include="any/net461/camerasBuiltin.xml" buildAction="Content" />
+      <files include="any/net461/ChangeLog.txt" buildAction="Content" />
+      <files include="any/net461/checklistDefault.xml" buildAction="Content" />
+      <files include="any/net461/dataflashlog.xml" buildAction="Content" />
+      <files include="any/net461/Drivers/dpinst.xml" buildAction="Content" />
+      <files include="any/net461/FirmwareHistory.txt" buildAction="Content" />
+      <files include="any/net461/hud.html" buildAction="Content" />
+      <files include="any/net461/mavcmd.xml" buildAction="Content" />
+      <files include="any/net461/mavgraphs.xml" buildAction="Content" />
+      <files include="any/net461/mpdesktop.ico" buildAction="Content" />
+      <files include="any/net461/mpdesktop150.png" buildAction="Content" />
+      <files include="any/net461/mpdesktop44.png" buildAction="Content" />
+      <files include="any/net461/ParameterFactMetaData.xml" buildAction="Content" />
+      <files include="any/net461/ParameterMetaDataBackup.xml" buildAction="Content" />
+      <files include="any/net461/Properties/launchSettings.json" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\ar\MissionPlanner.resources.dll" target="lib\net461\ar\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\az-Latn-AZ\MissionPlanner.resources.dll" target="lib\net461\az-Latn-AZ\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\id-ID\MissionPlanner.resources.dll" target="lib\net461\id-ID\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\ko-KR\MissionPlanner.resources.dll" target="lib\net461\ko-KR\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\pt\MissionPlanner.resources.dll" target="lib\net461\pt\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\ru-KZ\MissionPlanner.resources.dll" target="lib\net461\ru-KZ\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\tr\MissionPlanner.resources.dll" target="lib\net461\tr\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\zh-Hans\MissionPlanner.resources.dll" target="lib\net461\zh-Hans\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\de-DE\MissionPlanner.resources.dll" target="lib\net461\de-DE\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\es-ES\MissionPlanner.resources.dll" target="lib\net461\es-ES\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\fr\MissionPlanner.resources.dll" target="lib\net461\fr\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\it-IT\MissionPlanner.resources.dll" target="lib\net461\it-IT\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\pl\MissionPlanner.resources.dll" target="lib\net461\pl\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\zh-Hant\MissionPlanner.resources.dll" target="lib\net461\zh-Hant\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\zh-TW\MissionPlanner.resources.dll" target="lib\net461\zh-TW\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\ja-JP\MissionPlanner.resources.dll" target="lib\net461\ja-JP\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\obj\Debug\net461\ru-RU\MissionPlanner.resources.dll" target="lib\net461\ru-RU\MissionPlanner.resources.dll" />
+    <file src="D:\missplan\MissionPlanner\bin\Debug\net461\MissionPlanner.exe" target="lib\net461\MissionPlanner.exe" />
+    <file src="D:\missplan\MissionPlanner\acsimplepids.xml" target="content\acsimplepids.xml" />
+    <file src="D:\missplan\MissionPlanner\acsimplepids.xml" target="contentFiles\any\net461\acsimplepids.xml" />
+    <file src="D:\missplan\MissionPlanner\aircraft.xml" target="content\aircraft.xml" />
+    <file src="D:\missplan\MissionPlanner\aircraft.xml" target="contentFiles\any\net461\aircraft.xml" />
+    <file src="D:\missplan\MissionPlanner\appxmanifest.xml" target="content\appxmanifest.xml" />
+    <file src="D:\missplan\MissionPlanner\appxmanifest.xml" target="contentFiles\any\net461\appxmanifest.xml" />
+    <file src="D:\missplan\MissionPlanner\ArduCopterConfig.xml" target="content\ArduCopterConfig.xml" />
+    <file src="D:\missplan\MissionPlanner\ArduCopterConfig.xml" target="contentFiles\any\net461\ArduCopterConfig.xml" />
+    <file src="D:\missplan\MissionPlanner\camerasBuiltin.xml" target="content\camerasBuiltin.xml" />
+    <file src="D:\missplan\MissionPlanner\camerasBuiltin.xml" target="contentFiles\any\net461\camerasBuiltin.xml" />
+    <file src="D:\missplan\MissionPlanner\ChangeLog.txt" target="content\ChangeLog.txt" />
+    <file src="D:\missplan\MissionPlanner\ChangeLog.txt" target="contentFiles\any\net461\ChangeLog.txt" />
+    <file src="D:\missplan\MissionPlanner\checklistDefault.xml" target="content\checklistDefault.xml" />
+    <file src="D:\missplan\MissionPlanner\checklistDefault.xml" target="contentFiles\any\net461\checklistDefault.xml" />
+    <file src="D:\missplan\MissionPlanner\dataflashlog.xml" target="content\dataflashlog.xml" />
+    <file src="D:\missplan\MissionPlanner\dataflashlog.xml" target="contentFiles\any\net461\dataflashlog.xml" />
+    <file src="D:\missplan\MissionPlanner\Drivers\dpinst.xml" target="content\Drivers\dpinst.xml" />
+    <file src="D:\missplan\MissionPlanner\Drivers\dpinst.xml" target="contentFiles\any\net461\Drivers\dpinst.xml" />
+    <file src="D:\missplan\MissionPlanner\FirmwareHistory.txt" target="content\FirmwareHistory.txt" />
+    <file src="D:\missplan\MissionPlanner\FirmwareHistory.txt" target="contentFiles\any\net461\FirmwareHistory.txt" />
+    <file src="D:\missplan\MissionPlanner\hud.html" target="content\hud.html" />
+    <file src="D:\missplan\MissionPlanner\hud.html" target="contentFiles\any\net461\hud.html" />
+    <file src="D:\missplan\MissionPlanner\mavcmd.xml" target="content\mavcmd.xml" />
+    <file src="D:\missplan\MissionPlanner\mavcmd.xml" target="contentFiles\any\net461\mavcmd.xml" />
+    <file src="D:\missplan\MissionPlanner\mavgraphs.xml" target="content\mavgraphs.xml" />
+    <file src="D:\missplan\MissionPlanner\mavgraphs.xml" target="contentFiles\any\net461\mavgraphs.xml" />
+    <file src="D:\missplan\MissionPlanner\mpdesktop.ico" target="content\mpdesktop.ico" />
+    <file src="D:\missplan\MissionPlanner\mpdesktop.ico" target="contentFiles\any\net461\mpdesktop.ico" />
+    <file src="D:\missplan\MissionPlanner\mpdesktop150.png" target="content\mpdesktop150.png" />
+    <file src="D:\missplan\MissionPlanner\mpdesktop150.png" target="contentFiles\any\net461\mpdesktop150.png" />
+    <file src="D:\missplan\MissionPlanner\mpdesktop44.png" target="content\mpdesktop44.png" />
+    <file src="D:\missplan\MissionPlanner\mpdesktop44.png" target="contentFiles\any\net461\mpdesktop44.png" />
+    <file src="D:\missplan\MissionPlanner\ParameterFactMetaData.xml" target="content\ParameterFactMetaData.xml" />
+    <file src="D:\missplan\MissionPlanner\ParameterFactMetaData.xml" target="contentFiles\any\net461\ParameterFactMetaData.xml" />
+    <file src="D:\missplan\MissionPlanner\ParameterMetaDataBackup.xml" target="content\ParameterMetaDataBackup.xml" />
+    <file src="D:\missplan\MissionPlanner\ParameterMetaDataBackup.xml" target="contentFiles\any\net461\ParameterMetaDataBackup.xml" />
+    <file src="D:\missplan\MissionPlanner\Properties\launchSettings.json" target="content\Properties\launchSettings.json" />
+    <file src="D:\missplan\MissionPlanner\Properties\launchSettings.json" target="contentFiles\any\net461\Properties\launchSettings.json" />
+  </files>
+</package>

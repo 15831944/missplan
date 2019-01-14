@@ -1,0 +1,2929 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "BitMiracle.LibTiff.NET/2.4.584.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/net40/BitMiracle.LibTiff.NET40.dll": {}
+        },
+        "runtime": {
+          "lib/net40/BitMiracle.LibTiff.NET40.dll": {}
+        }
+      },
+      "csmatio/1.0.20": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/csmatio.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/csmatio.dll": {}
+        }
+      },
+      "GeoAPI.CoordinateSystems/1.7.5": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.Core": "1.7.5"
+        },
+        "compile": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        }
+      },
+      "GeoAPI.Core/1.7.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/GeoAPI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenTK/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "OpenTK.GLControl/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK": "3.0.1"
+        },
+        "compile": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        }
+      },
+      "SkiaSharp/1.60.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "build": {
+          "build/net45/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-armel"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-x86"
+          },
+          "runtimes/win7-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          }
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net451/System.Data.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.Common.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.IO.Ports/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.IO.Ports.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.IO.Ports.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.IO.Ports.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Net.NetworkInformation/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Net.NetworkInformation.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Net.NetworkInformation.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "assetType": "runtime",
+            "rid": "linux"
+          },
+          "runtimes/osx/lib/netstandard1.3/System.Net.NetworkInformation.dll": {
+            "assetType": "runtime",
+            "rid": "osx"
+          },
+          "runtimes/win/lib/net46/System.Net.NetworkInformation.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Reactive/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.1",
+          "System.ValueTuple": "4.4.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net46/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "alglibnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/alglibnet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/alglibnet.dll": {}
+        }
+      },
+      "BSE.Windows.Forms/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BSE.Windows.Forms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BSE.Windows.Forms.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "GeoUtility/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GeoUtility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeoUtility.dll": {}
+        }
+      },
+      "GMap.NET.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        }
+      },
+      "GMap.NET.WindowsForms/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "GMap.NET.Core": "1.0.0",
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.WindowsForms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.WindowsForms.dll": {}
+        }
+      },
+      "KMLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KMLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KMLib.dll": {}
+        }
+      },
+      "LibTessDotNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        }
+      },
+      "LibVLC.NET/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibVLC.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibVLC.NET.dll": {}
+        }
+      },
+      "MAVLink/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/MAVLink.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MAVLink.dll": {}
+        }
+      },
+      "MetaDataExtractor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MetaDataExtractor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MetaDataExtractor.dll": {}
+        }
+      },
+      "MissionPlanner.Comms/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.IO.Ports": "4.5.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/MissionPlanner.Comms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MissionPlanner.Comms.dll": {}
+        }
+      },
+      "MissionPlanner.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "BitMiracle.LibTiff.NET": "2.4.584.1",
+          "CSMatIO": "1.0.20",
+          "Core": "1.0.0",
+          "GMap.NET.Core": "1.0.0",
+          "GeoUtility": "1.0.0",
+          "KMLib": "1.0.0",
+          "LibVLC.NET": "1.0.0",
+          "MAVLink": "1.0.0",
+          "MetaDataExtractor": "1.0.0",
+          "Microsoft.CSharp": "4.5.0",
+          "MissionPlanner.Comms": "1.0.0",
+          "Newtonsoft.Json": "11.0.2",
+          "ProjNET": "1.0.0",
+          "SharpKml": "1.0.0",
+          "SharpZipLib": "1.0.0",
+          "System.Drawing.Common": "4.5.1",
+          "System.IO.Ports": "4.5.0",
+          "Zeroconf": "1.0.0",
+          "alglibnet": "1.0.0",
+          "log4net": "2.0.8",
+          "netDxf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MissionPlanner.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MissionPlanner.Utilities.dll": {}
+        }
+      },
+      "netDxf/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/netDxf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netDxf.dll": {}
+        }
+      },
+      "ProjNET/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GeoAPI.CoordinateSystems": "1.7.5"
+        },
+        "compile": {
+          "bin/placeholder/ProjNET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjNET.dll": {}
+        }
+      },
+      "SharpKml/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/SharpKml.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharpKml.dll": {}
+        }
+      },
+      "SharpZipLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "compile": {
+          "bin/placeholder/SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharpZipLib.dll": {}
+        }
+      },
+      "SvgNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LibTessDotNet": "1.0.0",
+          "SkiaSharp": "1.60.3",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/SvgNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvgNet.dll": {}
+        }
+      },
+      "Zeroconf/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Net.NetworkInformation": "4.3.0",
+          "System.Reactive": "4.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Zeroconf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zeroconf.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "BitMiracle.LibTiff.NET/2.4.584.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/net40/BitMiracle.LibTiff.NET40.dll": {}
+        },
+        "runtime": {
+          "lib/net40/BitMiracle.LibTiff.NET40.dll": {}
+        }
+      },
+      "csmatio/1.0.20": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/csmatio.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/csmatio.dll": {}
+        }
+      },
+      "GeoAPI.CoordinateSystems/1.7.5": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.Core": "1.7.5"
+        },
+        "compile": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        }
+      },
+      "GeoAPI.Core/1.7.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/GeoAPI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenTK/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "OpenTK.GLControl/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK": "3.0.1"
+        },
+        "compile": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        }
+      },
+      "SkiaSharp/1.60.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "build": {
+          "build/net45/_._": {}
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net451/System.Data.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.Common.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.IO.Ports/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.IO.Ports.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/netstandard2.0/System.IO.Ports.dll": {}
+        }
+      },
+      "System.Net.NetworkInformation/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Net.NetworkInformation.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net46/System.Net.NetworkInformation.dll": {}
+        }
+      },
+      "System.Reactive/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.1",
+          "System.ValueTuple": "4.4.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net46/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "alglibnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/alglibnet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/alglibnet.dll": {}
+        }
+      },
+      "BSE.Windows.Forms/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BSE.Windows.Forms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BSE.Windows.Forms.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "GeoUtility/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GeoUtility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeoUtility.dll": {}
+        }
+      },
+      "GMap.NET.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        }
+      },
+      "GMap.NET.WindowsForms/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "GMap.NET.Core": "1.0.0",
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.WindowsForms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.WindowsForms.dll": {}
+        }
+      },
+      "KMLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KMLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KMLib.dll": {}
+        }
+      },
+      "LibTessDotNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        }
+      },
+      "LibVLC.NET/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibVLC.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibVLC.NET.dll": {}
+        }
+      },
+      "MAVLink/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/MAVLink.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MAVLink.dll": {}
+        }
+      },
+      "MetaDataExtractor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MetaDataExtractor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MetaDataExtractor.dll": {}
+        }
+      },
+      "MissionPlanner.Comms/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.IO.Ports": "4.5.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/MissionPlanner.Comms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MissionPlanner.Comms.dll": {}
+        }
+      },
+      "MissionPlanner.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "BitMiracle.LibTiff.NET": "2.4.584.1",
+          "CSMatIO": "1.0.20",
+          "Core": "1.0.0",
+          "GMap.NET.Core": "1.0.0",
+          "GeoUtility": "1.0.0",
+          "KMLib": "1.0.0",
+          "LibVLC.NET": "1.0.0",
+          "MAVLink": "1.0.0",
+          "MetaDataExtractor": "1.0.0",
+          "Microsoft.CSharp": "4.5.0",
+          "MissionPlanner.Comms": "1.0.0",
+          "Newtonsoft.Json": "11.0.2",
+          "ProjNET": "1.0.0",
+          "SharpKml": "1.0.0",
+          "SharpZipLib": "1.0.0",
+          "System.Drawing.Common": "4.5.1",
+          "System.IO.Ports": "4.5.0",
+          "Zeroconf": "1.0.0",
+          "alglibnet": "1.0.0",
+          "log4net": "2.0.8",
+          "netDxf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MissionPlanner.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MissionPlanner.Utilities.dll": {}
+        }
+      },
+      "netDxf/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/netDxf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netDxf.dll": {}
+        }
+      },
+      "ProjNET/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GeoAPI.CoordinateSystems": "1.7.5"
+        },
+        "compile": {
+          "bin/placeholder/ProjNET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjNET.dll": {}
+        }
+      },
+      "SharpKml/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/SharpKml.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharpKml.dll": {}
+        }
+      },
+      "SharpZipLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "compile": {
+          "bin/placeholder/SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharpZipLib.dll": {}
+        }
+      },
+      "SvgNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LibTessDotNet": "1.0.0",
+          "SkiaSharp": "1.60.3",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/SvgNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvgNet.dll": {}
+        }
+      },
+      "Zeroconf/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Net.NetworkInformation": "4.3.0",
+          "System.Reactive": "4.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Zeroconf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zeroconf.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "BitMiracle.LibTiff.NET/2.4.584.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/net40/BitMiracle.LibTiff.NET40.dll": {}
+        },
+        "runtime": {
+          "lib/net40/BitMiracle.LibTiff.NET40.dll": {}
+        }
+      },
+      "csmatio/1.0.20": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/csmatio.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/csmatio.dll": {}
+        }
+      },
+      "GeoAPI.CoordinateSystems/1.7.5": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.Core": "1.7.5"
+        },
+        "compile": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        }
+      },
+      "GeoAPI.Core/1.7.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/GeoAPI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenTK/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "OpenTK.GLControl/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK": "3.0.1"
+        },
+        "compile": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        }
+      },
+      "SkiaSharp/1.60.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "build": {
+          "build/net45/_._": {}
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net451/System.Data.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.Common.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.IO.Ports/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.IO.Ports.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.IO.Ports.dll": {}
+        }
+      },
+      "System.Net.NetworkInformation/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Net.NetworkInformation.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Net.NetworkInformation.dll": {}
+        }
+      },
+      "System.Reactive/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.1",
+          "System.ValueTuple": "4.4.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net46/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "alglibnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/alglibnet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/alglibnet.dll": {}
+        }
+      },
+      "BSE.Windows.Forms/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BSE.Windows.Forms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BSE.Windows.Forms.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "GeoUtility/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GeoUtility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeoUtility.dll": {}
+        }
+      },
+      "GMap.NET.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        }
+      },
+      "GMap.NET.WindowsForms/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "GMap.NET.Core": "1.0.0",
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.WindowsForms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.WindowsForms.dll": {}
+        }
+      },
+      "KMLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KMLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KMLib.dll": {}
+        }
+      },
+      "LibTessDotNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        }
+      },
+      "LibVLC.NET/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibVLC.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibVLC.NET.dll": {}
+        }
+      },
+      "MAVLink/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/MAVLink.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MAVLink.dll": {}
+        }
+      },
+      "MetaDataExtractor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MetaDataExtractor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MetaDataExtractor.dll": {}
+        }
+      },
+      "MissionPlanner.Comms/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.IO.Ports": "4.5.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/MissionPlanner.Comms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MissionPlanner.Comms.dll": {}
+        }
+      },
+      "MissionPlanner.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "BitMiracle.LibTiff.NET": "2.4.584.1",
+          "CSMatIO": "1.0.20",
+          "Core": "1.0.0",
+          "GMap.NET.Core": "1.0.0",
+          "GeoUtility": "1.0.0",
+          "KMLib": "1.0.0",
+          "LibVLC.NET": "1.0.0",
+          "MAVLink": "1.0.0",
+          "MetaDataExtractor": "1.0.0",
+          "Microsoft.CSharp": "4.5.0",
+          "MissionPlanner.Comms": "1.0.0",
+          "Newtonsoft.Json": "11.0.2",
+          "ProjNET": "1.0.0",
+          "SharpKml": "1.0.0",
+          "SharpZipLib": "1.0.0",
+          "System.Drawing.Common": "4.5.1",
+          "System.IO.Ports": "4.5.0",
+          "Zeroconf": "1.0.0",
+          "alglibnet": "1.0.0",
+          "log4net": "2.0.8",
+          "netDxf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MissionPlanner.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MissionPlanner.Utilities.dll": {}
+        }
+      },
+      "netDxf/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/netDxf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netDxf.dll": {}
+        }
+      },
+      "ProjNET/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GeoAPI.CoordinateSystems": "1.7.5"
+        },
+        "compile": {
+          "bin/placeholder/ProjNET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjNET.dll": {}
+        }
+      },
+      "SharpKml/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/SharpKml.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharpKml.dll": {}
+        }
+      },
+      "SharpZipLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "compile": {
+          "bin/placeholder/SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharpZipLib.dll": {}
+        }
+      },
+      "SvgNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LibTessDotNet": "1.0.0",
+          "SkiaSharp": "1.60.3",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/SvgNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvgNet.dll": {}
+        }
+      },
+      "Zeroconf/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Net.NetworkInformation": "4.3.0",
+          "System.Reactive": "4.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Zeroconf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zeroconf.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "BitMiracle.LibTiff.NET/2.4.584.1": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/net40/BitMiracle.LibTiff.NET40.dll": {}
+        },
+        "runtime": {
+          "lib/net40/BitMiracle.LibTiff.NET40.dll": {}
+        }
+      },
+      "csmatio/1.0.20": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/csmatio.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/csmatio.dll": {}
+        }
+      },
+      "GeoAPI.CoordinateSystems/1.7.5": {
+        "type": "package",
+        "dependencies": {
+          "GeoAPI.Core": "1.7.5"
+        },
+        "compile": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.CoordinateSystems.dll": {}
+        }
+      },
+      "GeoAPI.Core/1.7.5": {
+        "type": "package",
+        "compile": {
+          "lib/net45/GeoAPI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/GeoAPI.dll": {}
+        }
+      },
+      "log4net/2.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45-full/log4net.dll": {}
+        },
+        "runtime": {
+          "lib/net45-full/log4net.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "OpenTK/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net20/OpenTK.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.dll": {}
+        }
+      },
+      "OpenTK.GLControl/3.0.1": {
+        "type": "package",
+        "dependencies": {
+          "OpenTK": "3.0.1"
+        },
+        "compile": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        },
+        "runtime": {
+          "lib/net20/OpenTK.GLControl.dll": {}
+        }
+      },
+      "SkiaSharp/1.60.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SkiaSharp.dll": {}
+        },
+        "build": {
+          "build/net45/_._": {}
+        }
+      },
+      "System.Data.Common/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Data",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net451/System.Data.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.Common.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Drawing",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Drawing.Common.dll": {}
+        }
+      },
+      "System.IO.Ports/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.IO.Ports.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.IO.Ports.dll": {}
+        }
+      },
+      "System.Net.NetworkInformation/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Net.NetworkInformation.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Net.NetworkInformation.dll": {}
+        }
+      },
+      "System.Reactive/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.1",
+          "System.ValueTuple": "4.4.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows",
+          "System.Windows.Forms",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net46/System.Reactive.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Reactive.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Text.Encoding.CodePages.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "System.ValueTuple/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.ValueTuple.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.ValueTuple.dll": {}
+        }
+      },
+      "alglibnet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/alglibnet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/alglibnet.dll": {}
+        }
+      },
+      "BSE.Windows.Forms/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/BSE.Windows.Forms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BSE.Windows.Forms.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "GeoUtility/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GeoUtility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeoUtility.dll": {}
+        }
+      },
+      "GMap.NET.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.Core.dll": {}
+        }
+      },
+      "GMap.NET.WindowsForms/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.6.1",
+        "dependencies": {
+          "GMap.NET.Core": "1.0.0",
+          "SvgNet": "1.0.0",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/GMap.NET.WindowsForms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GMap.NET.WindowsForms.dll": {}
+        }
+      },
+      "KMLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/KMLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/KMLib.dll": {}
+        }
+      },
+      "LibTessDotNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibTessDotNet.dll": {}
+        }
+      },
+      "LibVLC.NET/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/LibVLC.NET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibVLC.NET.dll": {}
+        }
+      },
+      "MAVLink/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/MAVLink.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MAVLink.dll": {}
+        }
+      },
+      "MetaDataExtractor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MetaDataExtractor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MetaDataExtractor.dll": {}
+        }
+      },
+      "MissionPlanner.Comms/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.IO.Ports": "4.5.0",
+          "log4net": "2.0.8"
+        },
+        "compile": {
+          "bin/placeholder/MissionPlanner.Comms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MissionPlanner.Comms.dll": {}
+        }
+      },
+      "MissionPlanner.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "BitMiracle.LibTiff.NET": "2.4.584.1",
+          "CSMatIO": "1.0.20",
+          "Core": "1.0.0",
+          "GMap.NET.Core": "1.0.0",
+          "GeoUtility": "1.0.0",
+          "KMLib": "1.0.0",
+          "LibVLC.NET": "1.0.0",
+          "MAVLink": "1.0.0",
+          "MetaDataExtractor": "1.0.0",
+          "Microsoft.CSharp": "4.5.0",
+          "MissionPlanner.Comms": "1.0.0",
+          "Newtonsoft.Json": "11.0.2",
+          "ProjNET": "1.0.0",
+          "SharpKml": "1.0.0",
+          "SharpZipLib": "1.0.0",
+          "System.Drawing.Common": "4.5.1",
+          "System.IO.Ports": "4.5.0",
+          "Zeroconf": "1.0.0",
+          "alglibnet": "1.0.0",
+          "log4net": "2.0.8",
+          "netDxf": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MissionPlanner.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MissionPlanner.Utilities.dll": {}
+        }
+      },
+      "netDxf/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/netDxf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/netDxf.dll": {}
+        }
+      },
+      "ProjNET/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "GeoAPI.CoordinateSystems": "1.7.5"
+        },
+        "compile": {
+          "bin/placeholder/ProjNET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjNET.dll": {}
+        }
+      },
+      "SharpKml/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/SharpKml.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharpKml.dll": {}
+        }
+      },
+      "SharpZipLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "compile": {
+          "bin/placeholder/SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharpZipLib.dll": {}
+        }
+      },
+      "SvgNet/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "LibTessDotNet": "1.0.0",
+          "SkiaSharp": "1.60.3",
+          "System.Drawing.Common": "4.5.1"
+        },
+        "compile": {
+          "bin/placeholder/SvgNet.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SvgNet.dll": {}
+        }
+      },
+      "Zeroconf/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Net.NetworkInformation": "4.3.0",
+          "System.Reactive": "4.1.0"
+        },
+        "compile": {
+          "bin/placeholder/Zeroconf.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Zeroconf.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BitMiracle.LibTiff.NET/2.4.584.1": {
+      "sha512": "+MokkvkYafuRwwsrOFaApdLK8a5kpmDVH95dkxtxVPDkQMEBkJ8GC+XCZ/wh0mJExljr35bArKPDO8FdTGRdSw==",
+      "type": "package",
+      "path": "bitmiracle.libtiff.net/2.4.584.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bitmiracle.libtiff.net.2.4.584.1.nupkg.sha512",
+        "bitmiracle.libtiff.net.nuspec",
+        "lib/net20/BitMiracle.LibTiff.NET.dll",
+        "lib/net20/BitMiracle.LibTiff.NET.xml",
+        "lib/net40/BitMiracle.LibTiff.NET40.dll",
+        "lib/net40/BitMiracle.LibTiff.NET40.xml",
+        "lib/netstandard1.3/BitMiracle.LibTiff.NetStandard.dll",
+        "lib/netstandard1.3/BitMiracle.LibTiff.NetStandard.xml"
+      ]
+    },
+    "csmatio/1.0.20": {
+      "sha512": "KVJfrgfU4fhrptjIhwW5vPw4GYHRqWEqcMnWnRc1ONQ7uJapOwSwFua9sohq4rWYXe9Ir4gOKMrYfPs6hzZXEg==",
+      "type": "package",
+      "path": "csmatio/1.0.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "csmatio.1.0.20.nupkg.sha512",
+        "csmatio.nuspec",
+        "lib/netstandard2.0/csmatio.dll"
+      ]
+    },
+    "GeoAPI.CoordinateSystems/1.7.5": {
+      "sha512": "m2hrCKJrMkmgJjLOmjbMQslJ7NIGnD4rpzLYxdVFUbJDYh54JgJZzKVse+yXyebKH+Bre0pEiXqxP5tfv8Y5ng==",
+      "type": "package",
+      "path": "geoapi.coordinatesystems/1.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geoapi.coordinatesystems.1.7.5.nupkg.sha512",
+        "geoapi.coordinatesystems.nuspec",
+        "lib/net20/GeoAPI.CoordinateSystems.dll",
+        "lib/net20/GeoAPI.CoordinateSystems.pdb",
+        "lib/net20/GeoAPI.CoordinateSystems.xml",
+        "lib/net35-cf/GeoAPI.CoordinateSystems.dll",
+        "lib/net35-cf/GeoAPI.CoordinateSystems.pdb",
+        "lib/net35-cf/GeoAPI.CoordinateSystems.xml",
+        "lib/net35-client/GeoAPI.CoordinateSystems.dll",
+        "lib/net35-client/GeoAPI.CoordinateSystems.pdb",
+        "lib/net35-client/GeoAPI.CoordinateSystems.xml",
+        "lib/net40-client/GeoAPI.CoordinateSystems.dll",
+        "lib/net40-client/GeoAPI.CoordinateSystems.pdb",
+        "lib/net40-client/GeoAPI.CoordinateSystems.xml",
+        "lib/net403-client/GeoAPI.CoordinateSystems.dll",
+        "lib/net403-client/GeoAPI.CoordinateSystems.pdb",
+        "lib/net403-client/GeoAPI.CoordinateSystems.xml",
+        "lib/net45/GeoAPI.CoordinateSystems.dll",
+        "lib/net45/GeoAPI.CoordinateSystems.pdb",
+        "lib/net45/GeoAPI.CoordinateSystems.xml",
+        "lib/netstandard1.0/GeoAPI.CoordinateSystems.deps.json",
+        "lib/netstandard1.0/GeoAPI.CoordinateSystems.dll",
+        "lib/netstandard1.0/GeoAPI.CoordinateSystems.pdb",
+        "lib/netstandard1.0/GeoAPI.CoordinateSystems.xml",
+        "lib/netstandard2.0/GeoAPI.CoordinateSystems.deps.json",
+        "lib/netstandard2.0/GeoAPI.CoordinateSystems.dll",
+        "lib/netstandard2.0/GeoAPI.CoordinateSystems.pdb",
+        "lib/netstandard2.0/GeoAPI.CoordinateSystems.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.pdb",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.xml",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.dll",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.pdb",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.CoordinateSystems.xml",
+        "src/CoordinateSystems/AxisInfo.cs",
+        "src/CoordinateSystems/AxisOrientationEnum.cs",
+        "src/CoordinateSystems/DatumType.cs",
+        "src/CoordinateSystems/IAngularUnit.cs",
+        "src/CoordinateSystems/ICompoundCoordinateSystem.cs",
+        "src/CoordinateSystems/ICoordinateSystem.cs",
+        "src/CoordinateSystems/ICoordinateSystemAuthorityFactory.cs",
+        "src/CoordinateSystems/ICoordinateSystemFactory.cs",
+        "src/CoordinateSystems/IDatum.cs",
+        "src/CoordinateSystems/IEllipsoid.cs",
+        "src/CoordinateSystems/IFittedCoordinateSystem.cs",
+        "src/CoordinateSystems/IGeocentricCoordinateSystem.cs",
+        "src/CoordinateSystems/IGeodeticSpatialReference.cs",
+        "src/CoordinateSystems/IGeographicCoordinateSystem.cs",
+        "src/CoordinateSystems/IGeographicTransform.cs",
+        "src/CoordinateSystems/IHorizontalCoordinateSystem.cs",
+        "src/CoordinateSystems/IHorizontalDatum.cs",
+        "src/CoordinateSystems/IInfo.cs",
+        "src/CoordinateSystems/ILinearUnit.cs",
+        "src/CoordinateSystems/ILocalCoordinateSystem.cs",
+        "src/CoordinateSystems/ILocalDatum.cs",
+        "src/CoordinateSystems/IParameterInfo.cs",
+        "src/CoordinateSystems/IPrimeMeridian.cs",
+        "src/CoordinateSystems/IProjectedCoordinateSystem.cs",
+        "src/CoordinateSystems/IProjection.cs",
+        "src/CoordinateSystems/IUnit.cs",
+        "src/CoordinateSystems/IVerticalCoordinateSystem.cs",
+        "src/CoordinateSystems/IVerticalDatum.cs",
+        "src/CoordinateSystems/Parameter.cs",
+        "src/CoordinateSystems/ProjectionParameter.cs",
+        "src/CoordinateSystems/Transformations/DomainFlags.cs",
+        "src/CoordinateSystems/Transformations/ICoordinateTransformation.cs",
+        "src/CoordinateSystems/Transformations/ICoordinateTransformationFactory.cs",
+        "src/CoordinateSystems/Transformations/IMathTransform.cs",
+        "src/CoordinateSystems/Transformations/IMathTransformFactory.cs",
+        "src/CoordinateSystems/Transformations/TransformType.cs",
+        "src/CoordinateSystems/WGS84ConversionInfo.cs",
+        "src/ICoordinateSystemServices.cs"
+      ]
+    },
+    "GeoAPI.Core/1.7.5": {
+      "sha512": "ad0v0DpwY/bly6xAqVcAmtvnqdZizc0chjx7fHHrmg3VDOWWWiGExn/2iFH61Cbe6a2e10NSmX8xI/IoW+op8Q==",
+      "type": "package",
+      "path": "geoapi.core/1.7.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "geoapi.core.1.7.5.nupkg.sha512",
+        "geoapi.core.nuspec",
+        "lib/net20/GeoAPI.dll",
+        "lib/net20/GeoAPI.pdb",
+        "lib/net20/GeoAPI.xml",
+        "lib/net35-cf/GeoAPI.dll",
+        "lib/net35-cf/GeoAPI.pdb",
+        "lib/net35-cf/GeoAPI.xml",
+        "lib/net35-client/GeoAPI.dll",
+        "lib/net35-client/GeoAPI.pdb",
+        "lib/net35-client/GeoAPI.xml",
+        "lib/net40-client/GeoAPI.dll",
+        "lib/net40-client/GeoAPI.pdb",
+        "lib/net40-client/GeoAPI.xml",
+        "lib/net403-client/GeoAPI.dll",
+        "lib/net403-client/GeoAPI.pdb",
+        "lib/net403-client/GeoAPI.xml",
+        "lib/net45/GeoAPI.dll",
+        "lib/net45/GeoAPI.pdb",
+        "lib/net45/GeoAPI.xml",
+        "lib/netstandard1.0/GeoAPI.deps.json",
+        "lib/netstandard1.0/GeoAPI.dll",
+        "lib/netstandard1.0/GeoAPI.pdb",
+        "lib/netstandard1.0/GeoAPI.xml",
+        "lib/netstandard2.0/GeoAPI.deps.json",
+        "lib/netstandard2.0/GeoAPI.dll",
+        "lib/netstandard2.0/GeoAPI.pdb",
+        "lib/netstandard2.0/GeoAPI.xml",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.dll",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.pdb",
+        "lib/portable40-net40+sl5+win8+wp8+wpa81/GeoAPI.xml",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.dll",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.pdb",
+        "lib/portable40-net403+sl5+win8+wp8+wpa81/GeoAPI.xml",
+        "src/Consts.cs",
+        "src/DataStructures/Interval.cs",
+        "src/Geometries/Coordinate.cs",
+        "src/Geometries/Dimension.cs",
+        "src/Geometries/Envelope.cs",
+        "src/Geometries/IBoundable.cs",
+        "src/Geometries/ICoordinate.cs",
+        "src/Geometries/ICoordinateBuffer.cs",
+        "src/Geometries/ICoordinateFilter.cs",
+        "src/Geometries/ICoordinateSequence.cs",
+        "src/Geometries/ICoordinateSequenceFactory.cs",
+        "src/Geometries/ICoordinateSequenceFilter.cs",
+        "src/Geometries/ICurve.cs",
+        "src/Geometries/IEnvelope.cs",
+        "src/Geometries/IExpandable.cs",
+        "src/Geometries/IGeometry.cs",
+        "src/Geometries/IGeometryCollection.cs",
+        "src/Geometries/IGeometryComponentFilter.cs",
+        "src/Geometries/IGeometryFactory.cs",
+        "src/Geometries/IGeometryFilter.cs",
+        "src/Geometries/IIntersectable.cs",
+        "src/Geometries/ILineString.cs",
+        "src/Geometries/ILineal.cs",
+        "src/Geometries/ILinearRing.cs",
+        "src/Geometries/IMultiCurve.cs",
+        "src/Geometries/IMultiLineString.cs",
+        "src/Geometries/IMultiPoint.cs",
+        "src/Geometries/IMultiPolygon.cs",
+        "src/Geometries/IMultiSurface.cs",
+        "src/Geometries/IPoint.cs",
+        "src/Geometries/IPolygon.cs",
+        "src/Geometries/IPolygonal.cs",
+        "src/Geometries/IPrecisionModel.cs",
+        "src/Geometries/IPuntal.cs",
+        "src/Geometries/ISurface.cs",
+        "src/Geometries/IntersectionMatrix.cs",
+        "src/Geometries/Location.cs",
+        "src/Geometries/OgcGeometryType.cs",
+        "src/Geometries/Ordinate.cs",
+        "src/Geometries/Ordinates.cs",
+        "src/Geometries/OridinatesUtility.cs",
+        "src/Geometries/Prepared/IPreparedGeometry.cs",
+        "src/GeometryServiceProvider.cs",
+        "src/ICloneable.cs",
+        "src/IGeometryServices.cs",
+        "src/IO/ByteOrder.cs",
+        "src/IO/GeometryType.cs",
+        "src/IO/IGeometryReader.cs",
+        "src/IO/IGeometryWriter.cs",
+        "src/IO/ParseException.cs",
+        "src/Operation/Buffer/BufferStyle.cs",
+        "src/Operation/Buffer/EndCapStyle.cs",
+        "src/Operation/Buffer/IBufferParameters.cs",
+        "src/Operation/Buffer/JoinStyle.cs",
+        "src/Properties/AssemblyInfo.cs",
+        "src/ValueParser.cs"
+      ]
+    },
+    "log4net/2.0.8": {
+      "sha512": "dwvu/YELc2nF5gjAnJMXJToYXVdK8Ma0BfLTEugMTM6l8kFysL9Np5LnwhUV6EKTkbRmVTa0/X1/8oSICcoHHw==",
+      "type": "package",
+      "path": "log4net/2.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20-full/log4net.dll",
+        "lib/net20-full/log4net.xml",
+        "lib/net35-client/log4net.dll",
+        "lib/net35-client/log4net.xml",
+        "lib/net35-full/log4net.dll",
+        "lib/net35-full/log4net.xml",
+        "lib/net40-client/log4net.dll",
+        "lib/net40-client/log4net.xml",
+        "lib/net40-full/log4net.dll",
+        "lib/net40-full/log4net.xml",
+        "lib/net45-full/log4net.dll",
+        "lib/net45-full/log4net.xml",
+        "lib/netstandard1.3/log4net.dll",
+        "log4net.2.0.8.nupkg.sha512",
+        "log4net.nuspec"
+      ]
+    },
+    "Microsoft.CSharp/4.5.0": {
+      "sha512": "yWWeTbGCzBOlRPWDCIxiTZW1ecZiMbao0ZT97KKEWdBhrLvUqU8RdzkhzuCRQzvoxzxlR7vytO43OOgFdkxv6g==",
+      "type": "package",
+      "path": "microsoft.csharp/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.5.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "OpenTK/3.0.1": {
+      "sha512": "V0NytNsN8ClXq6QikD7YXJfwEbexCxGAdfIRqxBJvLgijAZR6FrGiv8jwoma68cU3jLcEC//uxrgSnWa9DVcfA==",
+      "type": "package",
+      "path": "opentk/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/OpenTK.dll.config",
+        "lib/net20/OpenTK.dll",
+        "lib/net20/OpenTK.pdb",
+        "lib/net20/OpenTK.xml",
+        "opentk.3.0.1.nupkg.sha512",
+        "opentk.nuspec"
+      ]
+    },
+    "OpenTK.GLControl/3.0.1": {
+      "sha512": "5A1h+zyPYTsUoh7a6Hpn+Tiq1DBPFOdxVUVaRNSpNpYHNR+r9rwTu3//3Xg/FwhgUd+RB2KNUpxb6Jf7L2mPrw==",
+      "type": "package",
+      "path": "opentk.glcontrol/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/OpenTK.GLControl.dll",
+        "lib/net20/OpenTK.GLControl.pdb",
+        "lib/net20/OpenTK.GLControl.xml",
+        "opentk.glcontrol.3.0.1.nupkg.sha512",
+        "opentk.glcontrol.nuspec"
+      ]
+    },
+    "SkiaSharp/1.60.3": {
+      "sha512": "aOX0ksqw2Xwkjhi8PpL9YsbYhNDveS9FzJglCTC1HzrTXkwEoNi+DGA3Wh2zVx2qGtW/UbVVpyJ+/KTSV9xSLQ==",
+      "type": "package",
+      "path": "skiasharp/1.60.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net45/SkiaSharp.targets",
+        "build/tizen40/SkiaSharp.targets",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.xml",
+        "lib/Xamarin.TVOS/SkiaSharp.dll",
+        "lib/Xamarin.TVOS/SkiaSharp.xml",
+        "lib/Xamarin.WatchOS/SkiaSharp.dll",
+        "lib/Xamarin.WatchOS/SkiaSharp.xml",
+        "lib/Xamarin.iOS/SkiaSharp.dll",
+        "lib/Xamarin.iOS/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/tizen-armel/native/libSkiaSharp.so",
+        "runtimes/tizen-x86/native/libSkiaSharp.so",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win7-x64/native/libSkiaSharp.dll",
+        "runtimes/win7-x86/native/libSkiaSharp.dll",
+        "skiasharp.1.60.3.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "System.Data.Common/4.3.0": {
+      "sha512": "OGX4ifHI67s/2KRrXGMmEjmszCptbhWS4BieBdiBPl/8pn0A1xPMx0Gn0dKK0zKtEaelYNh5M7M5lCZL0EA4eA==",
+      "type": "package",
+      "path": "system.data.common/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net451/System.Data.Common.dll",
+        "lib/netstandard1.2/System.Data.Common.dll",
+        "lib/portable-net451+win8+wp8+wpa81/System.Data.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net451/System.Data.Common.dll",
+        "ref/netstandard1.2/System.Data.Common.dll",
+        "ref/netstandard1.2/System.Data.Common.xml",
+        "ref/netstandard1.2/de/System.Data.Common.xml",
+        "ref/netstandard1.2/es/System.Data.Common.xml",
+        "ref/netstandard1.2/fr/System.Data.Common.xml",
+        "ref/netstandard1.2/it/System.Data.Common.xml",
+        "ref/netstandard1.2/ja/System.Data.Common.xml",
+        "ref/netstandard1.2/ko/System.Data.Common.xml",
+        "ref/netstandard1.2/ru/System.Data.Common.xml",
+        "ref/netstandard1.2/zh-hans/System.Data.Common.xml",
+        "ref/netstandard1.2/zh-hant/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/System.Data.Common.dll",
+        "ref/portable-net451+win8+wp8+wpa81/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/de/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/es/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/fr/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/it/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/ja/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/ko/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/ru/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/zh-hans/System.Data.Common.xml",
+        "ref/portable-net451+win8+wp8+wpa81/zh-hant/System.Data.Common.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.data.common.4.3.0.nupkg.sha512",
+        "system.data.common.nuspec"
+      ]
+    },
+    "System.Drawing.Common/4.5.1": {
+      "sha512": "m3c7Fe/CS/jZ/nLBrxCCh52dYiC33GPbGfcF4CiVukb8+p121XUTHxs6sYKbWfvDVD8JssHcM+HVFLtzl3X3Xw==",
+      "type": "package",
+      "path": "system.drawing.common/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "system.drawing.common.4.5.1.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.IO.Ports/4.5.0": {
+      "sha512": "vcFROzHOHFR7+TUCKd5xdoMhzjx49bw/5+poOFrhWxpwLYi9lDVzUDLJSgVzTndxoX0E7T7/OIxlXkYcj0M7Dg==",
+      "type": "package",
+      "path": "system.io.ports/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.IO.Ports.dll",
+        "lib/netstandard2.0/System.IO.Ports.dll",
+        "lib/uap10.0.16299/_._",
+        "ref/net461/System.IO.Ports.dll",
+        "ref/net461/System.IO.Ports.xml",
+        "ref/netstandard2.0/System.IO.Ports.dll",
+        "ref/netstandard2.0/System.IO.Ports.xml",
+        "ref/uap10.0.16299/_._",
+        "runtimes/win/lib/netstandard2.0/System.IO.Ports.dll",
+        "runtimes/win/lib/uap10.0.16299/_._",
+        "system.io.ports.4.5.0.nupkg.sha512",
+        "system.io.ports.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Net.NetworkInformation/4.3.0": {
+      "sha512": "MKLDZXuBZOS348egaxkMgwSUHIIhykVf0pudpfSdzjKmkRpVCzqkpysPHHp8HfckYAhuXRM+UgxWPgFTHF8Trg==",
+      "type": "package",
+      "path": "system.net.networkinformation/4.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Net.NetworkInformation.dll",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Net.NetworkInformation.dll",
+        "ref/netcore50/System.Net.NetworkInformation.dll",
+        "ref/netcore50/System.Net.NetworkInformation.xml",
+        "ref/netcore50/de/System.Net.NetworkInformation.xml",
+        "ref/netcore50/es/System.Net.NetworkInformation.xml",
+        "ref/netcore50/fr/System.Net.NetworkInformation.xml",
+        "ref/netcore50/it/System.Net.NetworkInformation.xml",
+        "ref/netcore50/ja/System.Net.NetworkInformation.xml",
+        "ref/netcore50/ko/System.Net.NetworkInformation.xml",
+        "ref/netcore50/ru/System.Net.NetworkInformation.xml",
+        "ref/netcore50/zh-hans/System.Net.NetworkInformation.xml",
+        "ref/netcore50/zh-hant/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/System.Net.NetworkInformation.dll",
+        "ref/netstandard1.0/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/de/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/es/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/fr/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/it/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/ja/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/ko/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/ru/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/zh-hans/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.0/zh-hant/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/System.Net.NetworkInformation.dll",
+        "ref/netstandard1.3/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/de/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/es/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/fr/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/it/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/ja/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/ko/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/ru/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/zh-hans/System.Net.NetworkInformation.xml",
+        "ref/netstandard1.3/zh-hant/System.Net.NetworkInformation.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/linux/lib/netstandard1.3/System.Net.NetworkInformation.dll",
+        "runtimes/osx/lib/netstandard1.3/System.Net.NetworkInformation.dll",
+        "runtimes/win/lib/net46/System.Net.NetworkInformation.dll",
+        "runtimes/win/lib/netcore50/System.Net.NetworkInformation.dll",
+        "runtimes/win/lib/netstandard1.3/System.Net.NetworkInformation.dll",
+        "system.net.networkinformation.4.3.0.nupkg.sha512",
+        "system.net.networkinformation.nuspec"
+      ]
+    },
+    "System.Reactive/4.1.0": {
+      "sha512": "ltOXEJdCHe+tdtzoD8qqda50tHTwKbCTEJMTDUx2GL/Cwu1/T8qme5DI5lg7gB4gYMlDGJEqEm8hc9GGZT1lkg==",
+      "type": "package",
+      "path": "system.reactive/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/System.Reactive.dll",
+        "lib/net46/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.16299/System.Reactive.dll",
+        "lib/uap10.0.16299/System.Reactive.pri",
+        "lib/uap10.0.16299/System.Reactive.xml",
+        "lib/uap10.0/System.Reactive.dll",
+        "lib/uap10.0/System.Reactive.pri",
+        "lib/uap10.0/System.Reactive.xml",
+        "system.reactive.4.1.0.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.0": {
+      "sha512": "kUM0JPMHfdteeGm/r9/tdlsddPV1PUkAzcgUtcU7LXn5ZYKoXUyrPp9OarBCy3JRS5nk7Btwd+XMMEqhSzruNA==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/uap10.0.16300/_._",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/uap10.0.16300/_._",
+        "system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Text.Encoding.CodePages/4.5.0": {
+      "sha512": "aQnlUgT+JK/81iv62zE7hR7FZJOgKbMNuxlK5l6u3CchtZ2FG5LIMnedmvVgT1phTnX4qWCUIoyfGTQlxrLNog==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/de/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/es/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/fr/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/it/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ja/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ko/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ru/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hans/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hant/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "system.text.encoding.codepages.4.5.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.1": {
+      "sha512": "WSKUTtLhPR8gllzIWO2x6l4lmAIfbyMAiTlyXAis4QBDonXK4b4S6F8zGARX4/P8wH3DH+sLdhamCiHn+fTU1A==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "ref/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "ref/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "ref/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.1.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.4.0": {
+      "sha512": "hBl0/yPqtMnwrsqCYSxYr4Abvo9hSVYmf+55EniEMyCEPJRM1VGr8o+kHeHJdEqgr6wrQMhZ7HowYmejruXStg==",
+      "type": "package",
+      "path": "system.valuetuple/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net461/System.ValueTuple.xml",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.4.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "alglibnet/1.0.0": {
+      "type": "project",
+      "path": "../alglibnet/alglibnet.csproj",
+      "msbuildProject": "../alglibnet/alglibnet.csproj"
+    },
+    "BSE.Windows.Forms/1.0.0": {
+      "type": "project",
+      "path": "../BSE.Windows.Forms/BSE.Windows.Forms.csproj",
+      "msbuildProject": "../BSE.Windows.Forms/BSE.Windows.Forms.csproj"
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
+    "GeoUtility/1.0.0": {
+      "type": "project",
+      "path": "../GeoUtility/GeoUtility.csproj",
+      "msbuildProject": "../GeoUtility/GeoUtility.csproj"
+    },
+    "GMap.NET.Core/1.0.0": {
+      "type": "project",
+      "path": "../GMap.NET.Core/GMap.NET.Core.csproj",
+      "msbuildProject": "../GMap.NET.Core/GMap.NET.Core.csproj"
+    },
+    "GMap.NET.WindowsForms/1.0.0": {
+      "type": "project",
+      "path": "../GMap.NET.WindowsForms/GMap.NET.WindowsForms.csproj",
+      "msbuildProject": "../GMap.NET.WindowsForms/GMap.NET.WindowsForms.csproj"
+    },
+    "KMLib/1.0.0": {
+      "type": "project",
+      "path": "../KMLib/KMLib.csproj",
+      "msbuildProject": "../KMLib/KMLib.csproj"
+    },
+    "LibTessDotNet/1.0.0": {
+      "type": "project",
+      "path": "../LibTessDotNet/LibTessDotNet.csproj",
+      "msbuildProject": "../LibTessDotNet/LibTessDotNet.csproj"
+    },
+    "LibVLC.NET/1.0.0": {
+      "type": "project",
+      "path": "../LibVLC.NET/LibVLC.NET.csproj",
+      "msbuildProject": "../LibVLC.NET/LibVLC.NET.csproj"
+    },
+    "MAVLink/1.0.0": {
+      "type": "project",
+      "path": "../Mavlink/MAVLink.csproj",
+      "msbuildProject": "../Mavlink/MAVLink.csproj"
+    },
+    "MetaDataExtractor/1.0.0": {
+      "type": "project",
+      "path": "../MetaDataExtractorCSharp240d/MetaDataExtractor.csproj",
+      "msbuildProject": "../MetaDataExtractorCSharp240d/MetaDataExtractor.csproj"
+    },
+    "MissionPlanner.Comms/1.0.0": {
+      "type": "project",
+      "path": "../Comms/MissionPlanner.Comms.csproj",
+      "msbuildProject": "../Comms/MissionPlanner.Comms.csproj"
+    },
+    "MissionPlanner.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/MissionPlanner.Utilities.csproj",
+      "msbuildProject": "../Utilities/MissionPlanner.Utilities.csproj"
+    },
+    "netDxf/1.0.0": {
+      "type": "project",
+      "path": "../netDxf/netDxf.csproj",
+      "msbuildProject": "../netDxf/netDxf.csproj"
+    },
+    "ProjNET/1.0.0": {
+      "type": "project",
+      "path": "../ProjNet/ProjNET.csproj",
+      "msbuildProject": "../ProjNet/ProjNET.csproj"
+    },
+    "SharpKml/1.0.0": {
+      "type": "project",
+      "path": "../SharpKml/SharpKml.csproj",
+      "msbuildProject": "../SharpKml/SharpKml.csproj"
+    },
+    "SharpZipLib/1.0.0": {
+      "type": "project",
+      "path": "../ICSharpCode.SharpZipLib/ICSharpCode.SharpZipLib.csproj",
+      "msbuildProject": "../ICSharpCode.SharpZipLib/ICSharpCode.SharpZipLib.csproj"
+    },
+    "SvgNet/1.0.0": {
+      "type": "project",
+      "path": "../SvgNet/SvgNet.csproj",
+      "msbuildProject": "../SvgNet/SvgNet.csproj"
+    },
+    "Zeroconf/1.0.0": {
+      "type": "project",
+      "path": "../Zeroconf/Zeroconf/Zeroconf.csproj",
+      "msbuildProject": "../Zeroconf/Zeroconf/Zeroconf.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "BSE.Windows.Forms >= 1.0.0",
+      "GMap.NET.Core >= 1.0.0",
+      "GMap.NET.WindowsForms >= 1.0.0",
+      "GeoUtility >= 1.0.0",
+      "MissionPlanner.Utilities >= 1.0.0",
+      "OpenTK >= 3.0.1",
+      "OpenTK.GLControl >= 3.0.1",
+      "SvgNet >= 1.0.0",
+      "System.Data.Common >= 4.3.0",
+      "System.Drawing.Common >= 4.5.1",
+      "log4net >= 2.0.8"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\networker\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\missplan\\MissionPlanner\\ExtLibs\\Controls\\MissionPlanner.Controls.csproj",
+      "projectName": "MissionPlanner.Controls",
+      "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\Controls\\MissionPlanner.Controls.csproj",
+      "packagesPath": "C:\\Users\\networker\\.nuget\\packages\\",
+      "outputPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\Controls\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "D:\\missplan\\MissionPlanner\\.nuget\\NuGet.Config",
+        "C:\\Users\\networker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "D:\\missplan\\MissionPlanner\\ExtLibs\\BSE.Windows.Forms\\BSE.Windows.Forms.csproj": {
+              "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\BSE.Windows.Forms\\BSE.Windows.Forms.csproj"
+            },
+            "D:\\missplan\\MissionPlanner\\ExtLibs\\GeoUtility\\GeoUtility.csproj": {
+              "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\GeoUtility\\GeoUtility.csproj"
+            },
+            "D:\\missplan\\MissionPlanner\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj": {
+              "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\GMap.NET.Core\\GMap.NET.Core.csproj"
+            },
+            "D:\\missplan\\MissionPlanner\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj": {
+              "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\GMap.NET.WindowsForms\\GMap.NET.WindowsForms.csproj"
+            },
+            "D:\\missplan\\MissionPlanner\\ExtLibs\\SvgNet\\SvgNet.csproj": {
+              "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\SvgNet\\SvgNet.csproj"
+            },
+            "D:\\missplan\\MissionPlanner\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj": {
+              "projectPath": "D:\\missplan\\MissionPlanner\\ExtLibs\\Utilities\\MissionPlanner.Utilities.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "OpenTK": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "OpenTK.GLControl": {
+            "target": "Package",
+            "version": "[3.0.1, )"
+          },
+          "System.Data.Common": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[4.5.1, )"
+          },
+          "log4net": {
+            "target": "Package",
+            "version": "[2.0.8, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

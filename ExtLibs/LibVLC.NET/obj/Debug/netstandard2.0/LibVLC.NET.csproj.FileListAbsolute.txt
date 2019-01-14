@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\LibVLC.NET\bin\Debug\netstandard2.0\LibVLC.NET.deps.json
+D:\missplan\MissionPlanner\ExtLibs\LibVLC.NET\bin\Debug\netstandard2.0\LibVLC.NET.dll
+D:\missplan\MissionPlanner\ExtLibs\LibVLC.NET\bin\Debug\netstandard2.0\LibVLC.NET.pdb
+D:\missplan\MissionPlanner\ExtLibs\LibVLC.NET\obj\Debug\netstandard2.0\LibVLC.NET.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\LibVLC.NET\obj\Debug\netstandard2.0\LibVLC.NET.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\LibVLC.NET\obj\Debug\netstandard2.0\LibVLC.NET.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\LibVLC.NET\obj\Debug\netstandard2.0\LibVLC.NET.dll
+D:\missplan\MissionPlanner\ExtLibs\LibVLC.NET\obj\Debug\netstandard2.0\LibVLC.NET.pdb

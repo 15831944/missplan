@@ -1,0 +1,17 @@
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\bin\Debug\netstandard2.0\validcertificates.xml
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\bin\Debug\netstandard2.0\px4uploader.dll.config
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\bin\Debug\netstandard2.0\px4uploader.deps.json
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\bin\Debug\netstandard2.0\px4uploader.dll
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\bin\Debug\netstandard2.0\px4uploader.pdb
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\bin\Debug\netstandard2.0\BouncyCastle.dll
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\bin\Debug\netstandard2.0\Ionic.Zip.NetStandard.dll
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\bin\Debug\netstandard2.0\BouncyCastle.pdb
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\bin\Debug\netstandard2.0\Ionic.Zip.NetStandard.pdb
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\obj\Debug\netstandard2.0\px4uploader.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\obj\Debug\netstandard2.0\px4uploader.dll.config
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\obj\Debug\netstandard2.0\px4uploader.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\obj\Debug\netstandard2.0\px4uploader.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\obj\Debug\netstandard2.0\px4uploader.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\obj\Debug\netstandard2.0\px4uploader.csproj.CopyComplete
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\obj\Debug\netstandard2.0\px4uploader.dll
+D:\missplan\MissionPlanner\ExtLibs\px4uploader\obj\Debug\netstandard2.0\px4uploader.pdb

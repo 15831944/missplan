@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<simple>
+  <ac>
+    <version>3.0</version>
+
+    <param>
+      <title>RC Feel Roll/Pitch</title>
+      <desc>geser ke kiri untuk respon lebih lembut terhadap RC input atau geser ke kanan untuk respon lebih tajam.</desc>
+      <name>RC_FEEL_RP</name>
+      <value>100</value>
+      <min>0</min>
+      <max>100</max>
+    </param>
+
+    <param>
+      <title>Roll/Pitch Sensitivity:</title>
+      <desc>geser ke kanan jika copter kurang sensitif atau geser ke kiri jika copter terlalu sensitif.</desc>
+      <name>RATE_RLL_P</name>
+      <value>0.15</value>
+      <min>0.08</min>
+      <max>0.4</max>
+      <relation>
+        <param>RATE_RLL_I</param>
+        <multiplier>1</multiplier>
+      </relation>
+      <relation>
+        <param>RATE_PIT_P</param>
+        <multiplier>1</multiplier>
+      </relation>
+      <relation>
+        <param>RATE_PIT_I</param>
+        <multiplier>1</multiplier>
+      </relation>
+    </param>
+
+    <param>
+      <title>Roll/Pitch Sensitivity:</title>
+      <desc>geser ke kanan jika copter kurang sensitif atau geser ke kiri jika copter terlalu sensitif.</desc>
+      <name>ATC_RAT_RLL_P</name>
+      <value>0.15</value>
+      <min>0.08</min>
+      <max>0.4</max>
+      <relation>
+        <param>ATC_RAT_RLL_I</param>
+        <multiplier>1</multiplier>
+      </relation>
+      <relation>
+        <param>ATC_RAT_PIT_P</param>
+        <multiplier>1</multiplier>
+      </relation>
+      <relation>
+        <param>ATC_RAT_PIT_I</param>
+        <multiplier>1</multiplier>
+      </relation>
+    </param>
+
+    <param>
+      <title>Throttle Hover:</title>
+      <desc> Berapa banyak throttle yang dibutuhkan untuk hover yang lebih stabil. </desc>
+      <name>THR_MID</name>
+      <value>480</value>
+      <min>200</min>
+      <max>800</max>
+    </param>
+
+    <param>
+      <title>Climb Sensitivity:</title>
+      <desc>geser ke kanan untuk menanjak lebih agresif atau geser ke kiri untuk menanjak lebih lembut.</desc>
+      <name>THR_ACCEL_P</name>
+      <value>0.75</value>
+      <min>0.3</min>
+      <max>1</max>
+      <relation>
+        <param>THR_ACCEL_I</param>
+        <multiplier>2</multiplier>
+      </relation>
+    </param>
+
+    <param>
+      <title>Climb Sensitivity:</title>
+      <desc>geser ke kanan untuk menanjak lebih agresif atau geser ke kiri untuk menanjak lebih lembut.</desc>
+      <name>ACCEL_Z_P</name>
+      <value>0.75</value>
+      <min>0.3</min>
+      <max>1</max>
+      <relation>
+        <param>ACCEL_Z_I</param>
+        <multiplier>2</multiplier>
+      </relation>
+    </param>
+
+  </ac>
+</simple>

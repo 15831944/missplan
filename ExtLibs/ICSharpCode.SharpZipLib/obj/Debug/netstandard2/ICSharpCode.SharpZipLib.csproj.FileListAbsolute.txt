@@ -1,0 +1,9 @@
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\bin\Debug\netstandard2\ICSharpCode.SharpZipLib.xml
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\bin\Debug\netstandard2\ICSharpCode.SharpZipLib.deps.json
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\bin\Debug\netstandard2\ICSharpCode.SharpZipLib.dll
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\bin\Debug\netstandard2\ICSharpCode.SharpZipLib.pdb
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard2\ICSharpCode.SharpZipLib.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard2\ICSharpCode.SharpZipLib.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard2\ICSharpCode.SharpZipLib.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard2\ICSharpCode.SharpZipLib.dll
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard2\ICSharpCode.SharpZipLib.pdb

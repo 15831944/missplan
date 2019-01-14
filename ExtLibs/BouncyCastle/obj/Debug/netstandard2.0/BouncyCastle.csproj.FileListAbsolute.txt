@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\BouncyCastle\bin\Debug\netstandard2.0\BouncyCastle.deps.json
+D:\missplan\MissionPlanner\ExtLibs\BouncyCastle\bin\Debug\netstandard2.0\BouncyCastle.dll
+D:\missplan\MissionPlanner\ExtLibs\BouncyCastle\bin\Debug\netstandard2.0\BouncyCastle.pdb
+D:\missplan\MissionPlanner\ExtLibs\BouncyCastle\obj\Debug\netstandard2.0\BouncyCastle.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\BouncyCastle\obj\Debug\netstandard2.0\BouncyCastle.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\BouncyCastle\obj\Debug\netstandard2.0\BouncyCastle.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\BouncyCastle\obj\Debug\netstandard2.0\BouncyCastle.dll
+D:\missplan\MissionPlanner\ExtLibs\BouncyCastle\obj\Debug\netstandard2.0\BouncyCastle.pdb

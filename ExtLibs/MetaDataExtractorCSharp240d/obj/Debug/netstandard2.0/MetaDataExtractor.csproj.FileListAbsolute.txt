@@ -1,0 +1,11 @@
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\bin\Debug\netstandard2.0\exif.xslt
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\bin\Debug\netstandard2.0\MetadataExtractor.dtd
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\bin\Debug\netstandard2.0\MetadataExtractorNew.dtd
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\bin\Debug\netstandard2.0\MetaDataExtractor.deps.json
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\bin\Debug\netstandard2.0\MetaDataExtractor.dll
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\bin\Debug\netstandard2.0\MetaDataExtractor.pdb
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\obj\Debug\netstandard2.0\MetaDataExtractor.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\obj\Debug\netstandard2.0\MetaDataExtractor.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\obj\Debug\netstandard2.0\MetaDataExtractor.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\obj\Debug\netstandard2.0\MetaDataExtractor.dll
+D:\missplan\MissionPlanner\ExtLibs\MetaDataExtractorCSharp240d\obj\Debug\netstandard2.0\MetaDataExtractor.pdb

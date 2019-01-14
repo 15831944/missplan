@@ -1,0 +1,11 @@
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\bin\Debug\netstandard2.0\SharpKml.deps.json
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\bin\Debug\netstandard2.0\SharpKml.dll
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\bin\Debug\netstandard2.0\SharpKml.pdb
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\bin\Debug\netstandard2.0\Ionic.Zip.NetStandard.dll
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\bin\Debug\netstandard2.0\Ionic.Zip.NetStandard.pdb
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.csproj.CopyComplete
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.dll
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.pdb

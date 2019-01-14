@@ -1,0 +1,12 @@
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.XML
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.dll
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\bin\Debug\BSE.Windows.Forms.pdb
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.Properties.Resources.resources
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.Panel.resources
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.XPanderPanel.resources
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.XPanderPanelList.resources
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csproj.GenerateResource.cache
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.dll
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.pdb
+D:\missplan\MissionPlanner\ExtLibs\BSE.Windows.Forms\obj\Debug\BSE.Windows.Forms.csprojAssemblyReference.cache

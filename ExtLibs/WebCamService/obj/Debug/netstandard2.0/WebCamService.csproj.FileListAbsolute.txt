@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\WebCamService\bin\Debug\netstandard2.0\WebCamService.deps.json
+D:\missplan\MissionPlanner\ExtLibs\WebCamService\bin\Debug\netstandard2.0\WebCamService.dll
+D:\missplan\MissionPlanner\ExtLibs\WebCamService\bin\Debug\netstandard2.0\WebCamService.pdb
+D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCamService.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCamService.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCamService.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCamService.dll
+D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCamService.pdb

@@ -1,0 +1,9 @@
+D:\missplan\MissionPlanner\ExtLibs\Transitions\bin\Debug\netstandard2.0\Transitions.deps.json
+D:\missplan\MissionPlanner\ExtLibs\Transitions\bin\Debug\netstandard2.0\Transitions.dll
+D:\missplan\MissionPlanner\ExtLibs\Transitions\bin\Debug\netstandard2.0\Transitions.pdb
+D:\missplan\MissionPlanner\ExtLibs\Transitions\obj\Debug\netstandard2.0\Transitions.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Transitions\obj\Debug\netstandard2.0\Transitions.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Transitions\obj\Debug\netstandard2.0\Transitions.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\Transitions\obj\Debug\netstandard2.0\Transitions.dll
+D:\missplan\MissionPlanner\ExtLibs\Transitions\obj\Debug\netstandard2.0\Transitions.pdb
+D:\missplan\MissionPlanner\ExtLibs\Transitions\obj\Debug\netstandard2.0\Transitions.csprojAssemblyReference.cache

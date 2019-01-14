@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\bin\Debug\netstandard2.0\Zeroconf.deps.json
+D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\bin\Debug\netstandard2.0\Zeroconf.dll
+D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\bin\Debug\netstandard2.0\Zeroconf.pdb
+D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Zeroconf.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Zeroconf.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Zeroconf.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Zeroconf.dll
+D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Zeroconf.pdb

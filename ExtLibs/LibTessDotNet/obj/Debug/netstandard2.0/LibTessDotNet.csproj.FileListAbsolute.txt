@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\bin\Debug\netstandard2.0\LibTessDotNet.deps.json
+D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\bin\Debug\netstandard2.0\LibTessDotNet.dll
+D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\bin\Debug\netstandard2.0\LibTessDotNet.pdb
+D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTessDotNet.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTessDotNet.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTessDotNet.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTessDotNet.dll
+D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTessDotNet.pdb

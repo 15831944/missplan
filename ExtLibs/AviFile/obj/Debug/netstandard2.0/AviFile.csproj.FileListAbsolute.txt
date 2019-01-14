@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\AviFile\bin\Debug\netstandard2.0\AviFile.deps.json
+D:\missplan\MissionPlanner\ExtLibs\AviFile\bin\Debug\netstandard2.0\AviFile.dll
+D:\missplan\MissionPlanner\ExtLibs\AviFile\bin\Debug\netstandard2.0\AviFile.pdb
+D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.dll
+D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.pdb

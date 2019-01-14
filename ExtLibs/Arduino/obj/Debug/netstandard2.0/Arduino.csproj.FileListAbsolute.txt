@@ -1,0 +1,12 @@
+D:\missplan\MissionPlanner\ExtLibs\Arduino\bin\Debug\netstandard2.0\Arduino.deps.json
+D:\missplan\MissionPlanner\ExtLibs\Arduino\bin\Debug\netstandard2.0\Arduino.dll
+D:\missplan\MissionPlanner\ExtLibs\Arduino\bin\Debug\netstandard2.0\Arduino.pdb
+D:\missplan\MissionPlanner\ExtLibs\Arduino\bin\Debug\netstandard2.0\MissionPlanner.Comms.dll
+D:\missplan\MissionPlanner\ExtLibs\Arduino\bin\Debug\netstandard2.0\MissionPlanner.Comms.pdb
+D:\missplan\MissionPlanner\ExtLibs\Arduino\obj\Debug\netstandard2.0\Arduino.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\Arduino\obj\Debug\netstandard2.0\Arduino.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Arduino\obj\Debug\netstandard2.0\Arduino.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Arduino\obj\Debug\netstandard2.0\Arduino.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\Arduino\obj\Debug\netstandard2.0\Arduino.csproj.CopyComplete
+D:\missplan\MissionPlanner\ExtLibs\Arduino\obj\Debug\netstandard2.0\Arduino.dll
+D:\missplan\MissionPlanner\ExtLibs\Arduino\obj\Debug\netstandard2.0\Arduino.pdb

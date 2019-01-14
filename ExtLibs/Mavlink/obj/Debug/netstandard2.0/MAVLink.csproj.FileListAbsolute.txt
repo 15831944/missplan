@@ -1,0 +1,8 @@
+D:\missplan\MissionPlanner\ExtLibs\Mavlink\bin\Debug\netstandard2.0\MAVLink.deps.json
+D:\missplan\MissionPlanner\ExtLibs\Mavlink\bin\Debug\netstandard2.0\MAVLink.dll
+D:\missplan\MissionPlanner\ExtLibs\Mavlink\bin\Debug\netstandard2.0\MAVLink.pdb
+D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.dll
+D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.pdb
