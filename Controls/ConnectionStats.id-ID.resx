@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label10.Text" xml:space="preserve">
-    <value>Max time between packets (ms)</value>
+    <value>Waktu maksimal antar paket (ms)</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Bytes/s</value>
@@ -139,15 +139,15 @@
     <value>Pkts Lost</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Quality</value>
+    <value>Kualitas</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>Upload</value>
+    <value>Unggah</value>
   </data>
   <data name="label8.Text" xml:space="preserve">
     <value>Packets/s</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
-    <value>Download</value>
+    <value>Unduh</value>
   </data>
 </root>

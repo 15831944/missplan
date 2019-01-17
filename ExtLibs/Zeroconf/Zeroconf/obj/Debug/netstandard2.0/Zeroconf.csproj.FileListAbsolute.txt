@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Ze
 D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Zeroconf.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Zeroconf.dll
 D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Zeroconf.pdb
+D:\missplan\MissionPlanner\ExtLibs\Zeroconf\Zeroconf\obj\Debug\netstandard2.0\Zeroconf.csprojAssemblyReference.cache

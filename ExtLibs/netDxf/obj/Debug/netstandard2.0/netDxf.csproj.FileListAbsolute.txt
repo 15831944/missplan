@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\ExtLibs\netDxf\obj\Debug\netstandard2.0\netDxf.Assemb
 D:\missplan\MissionPlanner\ExtLibs\netDxf\obj\Debug\netstandard2.0\netDxf.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\netDxf\obj\Debug\netstandard2.0\netDxf.dll
 D:\missplan\MissionPlanner\ExtLibs\netDxf\obj\Debug\netstandard2.0\netDxf.pdb
+D:\missplan\MissionPlanner\ExtLibs\netDxf\obj\Debug\netstandard2.0\netDxf.csprojAssemblyReference.cache

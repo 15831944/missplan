@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="backstageViewPageairspeed.Text" xml:space="preserve">
-    <value>Airspeed</value>
+    <value>Kecepatan udara</value>
   </data>
   <data name="backstageViewPageosd.Text" xml:space="preserve">
     <value>OSD</value>
@@ -136,7 +136,7 @@
     <value>Bluetooth Setup</value>
   </data>
   <data name="backstageViewPagecompassmot.Text" xml:space="preserve">
-    <value>Compass/Motor Calib</value>
+    <value>kalibrasi Motor/Kompas</value>
   </data>
   <data name="backstageViewPageParachute.Text" xml:space="preserve">
     <value>Parachute</value>
@@ -145,10 +145,10 @@
     <value>Optional Hardware</value>
   </data>
   <data name="backstageViewPageradio.Text" xml:space="preserve">
-    <value>Radio Calibration</value>
+    <value>Kalibrasi Radio</value>
   </data>
   <data name="backstageViewPageframetype.Text" xml:space="preserve">
-    <value>Frame Type</value>
+    <value>Tipe Frame</value>
   </data>
   <data name="backstageViewPagefwdisabled.Text" xml:space="preserve">
     <value>Install Firmware</value>
@@ -160,7 +160,7 @@
     <value>Install Firmware</value>
   </data>
   <data name="backstageViewPageaccel.Text" xml:space="preserve">
-    <value>Accel Calibration</value>
+    <value>Kalibrasi accel</value>
   </data>
   <data name="backstageViewPageMotorTest.Text" xml:space="preserve">
     <value>Motor Test</value>
@@ -178,10 +178,10 @@
     <value>Heli Setup</value>
   </data>
   <data name="backstageViewPageflmode.Text" xml:space="preserve">
-    <value>Flight Modes</value>
+    <value>Mode terbang</value>
   </data>
   <data name="backstageViewPagecompass.Text" xml:space="preserve">
-    <value>Compass</value>
+    <value>Kompas</value>
   </data>
   <data name="backstageViewPageoptflow.Text" xml:space="preserve">
     <value>Optical Flow</value>

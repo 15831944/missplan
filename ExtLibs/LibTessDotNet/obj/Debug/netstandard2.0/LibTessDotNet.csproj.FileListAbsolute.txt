@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTes
 D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTessDotNet.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTessDotNet.dll
 D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTessDotNet.pdb
+D:\missplan\MissionPlanner\ExtLibs\LibTessDotNet\obj\Debug\netstandard2.0\LibTessDotNet.csprojAssemblyReference.cache

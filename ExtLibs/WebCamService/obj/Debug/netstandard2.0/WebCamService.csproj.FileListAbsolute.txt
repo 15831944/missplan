@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCam
 D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCamService.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCamService.dll
 D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCamService.pdb
+D:\missplan\MissionPlanner\ExtLibs\WebCamService\obj\Debug\netstandard2.0\WebCamService.csprojAssemblyReference.cache

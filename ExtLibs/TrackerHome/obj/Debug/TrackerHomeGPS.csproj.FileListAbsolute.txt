@@ -1,0 +1,4 @@
+D:\missplan\MissionPlanner\ExtLibs\TrackerHome\obj\Debug\TrackerHomeGPS.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\TrackerHome\obj\Debug\TrackerHomeGPS.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\TrackerHome\obj\Debug\TrackerHomeGPS.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\TrackerHome\obj\Debug\TrackerHomeGPS.AssemblyInfo.cs

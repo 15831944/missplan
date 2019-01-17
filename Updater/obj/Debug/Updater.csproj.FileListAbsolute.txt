@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.csproj.GenerateResource.cac
 D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.csproj.CoreCompileInputs.cache
 D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.exe
 D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.pdb
+D:\missplan\MissionPlanner\Updater\obj\Debug\Updater.csprojAssemblyReference.cache

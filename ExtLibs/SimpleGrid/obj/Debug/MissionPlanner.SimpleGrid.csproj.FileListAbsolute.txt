@@ -1,0 +1,7 @@
+D:\missplan\MissionPlanner\ExtLibs\SimpleGrid\obj\Debug\MissionPlanner.SimpleGrid.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\SimpleGrid\obj\Debug\MissionPlanner.SimpleGrid.GridUI.resources
+D:\missplan\MissionPlanner\ExtLibs\SimpleGrid\obj\Debug\MissionPlanner.GridUI.pt.resources
+D:\missplan\MissionPlanner\ExtLibs\SimpleGrid\obj\Debug\MissionPlanner.SimpleGrid.csproj.GenerateResource.cache
+D:\missplan\MissionPlanner\ExtLibs\SimpleGrid\obj\Debug\MissionPlanner.SimpleGrid.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\SimpleGrid\obj\Debug\MissionPlanner.SimpleGrid.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\SimpleGrid\obj\Debug\MissionPlanner.SimpleGrid.AssemblyInfo.cs

@@ -1,0 +1,7 @@
+D:\missplan\MissionPlanner\ExtLibs\MissionPlanner.Gridv2\obj\Debug\MissionPlanner.Gridv2.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\MissionPlanner.Gridv2\obj\Debug\MissionPlanner.GridUIv2.resources
+D:\missplan\MissionPlanner\ExtLibs\MissionPlanner.Gridv2\obj\Debug\MissionPlanner.Properties.Resources.resources
+D:\missplan\MissionPlanner\ExtLibs\MissionPlanner.Gridv2\obj\Debug\MissionPlanner.Gridv2.csproj.GenerateResource.cache
+D:\missplan\MissionPlanner\ExtLibs\MissionPlanner.Gridv2\obj\Debug\MissionPlanner.Gridv2.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\MissionPlanner.Gridv2\obj\Debug\MissionPlanner.Gridv2.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\MissionPlanner.Gridv2\obj\Debug\MissionPlanner.Gridv2.AssemblyInfo.cs

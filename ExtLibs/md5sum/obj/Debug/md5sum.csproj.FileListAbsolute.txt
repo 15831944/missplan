@@ -1,0 +1,7 @@
+D:\missplan\MissionPlanner\bin\Debug\md5sum.exe.config
+D:\missplan\MissionPlanner\bin\Debug\md5sum.exe
+D:\missplan\MissionPlanner\bin\Debug\md5sum.pdb
+D:\missplan\MissionPlanner\ExtLibs\md5sum\obj\Debug\md5sum.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\md5sum\obj\Debug\md5sum.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\md5sum\obj\Debug\md5sum.exe
+D:\missplan\MissionPlanner\ExtLibs\md5sum\obj\Debug\md5sum.pdb

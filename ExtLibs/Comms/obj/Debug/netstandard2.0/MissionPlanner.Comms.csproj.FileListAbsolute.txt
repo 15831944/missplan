@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\ExtLibs\Comms\obj\Debug\netstandard2.0\MissionPlanner
 D:\missplan\MissionPlanner\ExtLibs\Comms\obj\Debug\netstandard2.0\MissionPlanner.Comms.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\Comms\obj\Debug\netstandard2.0\MissionPlanner.Comms.dll
 D:\missplan\MissionPlanner\ExtLibs\Comms\obj\Debug\netstandard2.0\MissionPlanner.Comms.pdb
+D:\missplan\MissionPlanner\ExtLibs\Comms\obj\Debug\netstandard2.0\MissionPlanner.Comms.csprojAssemblyReference.cache

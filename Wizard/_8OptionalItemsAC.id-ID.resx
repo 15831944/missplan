@@ -124,22 +124,22 @@
     <value>Enable</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>Distance: </value>
+    <value>Jarak: </value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>Do you have a sonar attached?</value>
+    <value>Apakah anda memiliki sonar yang terpasang?</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Sonar</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Do you have a Optical flow sensor attached?</value>
+    <value>Apakah anda memiliki Optical Flow Sensor yang terpasang?</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Optical Flow</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Voltage: </value>
+    <value>Tegangan: </value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Sonar Model</value>

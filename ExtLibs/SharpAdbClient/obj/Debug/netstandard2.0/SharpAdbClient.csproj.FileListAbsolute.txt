@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\Sharp
 D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\SharpAdbClient.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\SharpAdbClient.dll
 D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\SharpAdbClient.pdb
+D:\missplan\MissionPlanner\ExtLibs\SharpAdbClient\obj\Debug\netstandard2.0\SharpAdbClient.csprojAssemblyReference.cache

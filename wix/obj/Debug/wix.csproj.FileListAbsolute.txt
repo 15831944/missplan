@@ -1,0 +1,7 @@
+D:\missplan\MissionPlanner\Msi\licence.rtf
+D:\missplan\MissionPlanner\Msi\wix.exe
+D:\missplan\MissionPlanner\Msi\wix.pdb
+D:\missplan\MissionPlanner\wix\obj\Debug\wix.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\wix\obj\Debug\wix.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\wix\obj\Debug\wix.exe
+D:\missplan\MissionPlanner\wix\obj\Debug\wix.pdb

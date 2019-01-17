@@ -1,0 +1,9 @@
+D:\missplan\MissionPlanner\ExtLibs\CsAssortedWidgets\bin\Debug\netstandard2.0\CsAssortedWidgets.deps.json
+D:\missplan\MissionPlanner\ExtLibs\CsAssortedWidgets\bin\Debug\netstandard2.0\CsAssortedWidgets.dll
+D:\missplan\MissionPlanner\ExtLibs\CsAssortedWidgets\bin\Debug\netstandard2.0\CsAssortedWidgets.pdb
+D:\missplan\MissionPlanner\ExtLibs\CsAssortedWidgets\obj\Debug\netstandard2.0\CsAssortedWidgets.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\CsAssortedWidgets\obj\Debug\netstandard2.0\CsAssortedWidgets.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\CsAssortedWidgets\obj\Debug\netstandard2.0\CsAssortedWidgets.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\CsAssortedWidgets\obj\Debug\netstandard2.0\CsAssortedWidgets.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\CsAssortedWidgets\obj\Debug\netstandard2.0\CsAssortedWidgets.dll
+D:\missplan\MissionPlanner\ExtLibs\CsAssortedWidgets\obj\Debug\netstandard2.0\CsAssortedWidgets.pdb

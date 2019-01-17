@@ -154,10 +154,7 @@ namespace MissionPlanner
             MainMap.Dispose();
         }
 
-        private void BUT_lang_edit_Click(object sender, EventArgs e)
-        {
-            new Form1().Show();
-        }
+        
 
         private void BUT_georefimage_Click(object sender, EventArgs e)
         {
@@ -205,7 +202,10 @@ namespace MissionPlanner
         {
             new SerialOutputNMEA().Show();
         }
-
+        private void BUT_lang_edit_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+        }
         private void BUT_followleader_Click(object sender, EventArgs e)
         {
             new FollowPathControl().Show();

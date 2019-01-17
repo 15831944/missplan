@@ -142,7 +142,7 @@
     <value>MENYUMBANG</value>
   </data>
   <data name="readonlyToolStripMenuItem.Text" xml:space="preserve">
-    <value>Hanya Membaca</value>
+    <value>ReadOnly</value>
   </data>
   <data name="MenuFlightData.Text" xml:space="preserve">
     <value>DATA PENERBANGAN</value>
@@ -187,6 +187,6 @@
     <value>Sembunyi Otomatis</value>
   </data>
   <data name="advancedViewToolStripMenuItem.Text" xml:space="preserve">
-    <value>Advanced View</value>
+    <value>Tampilan Ahli</value>
   </data>
 </root>

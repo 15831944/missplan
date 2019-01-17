@@ -1,0 +1,6 @@
+D:\missplan\MissionPlanner\ExtLibs\BaseClasses\bin\Debug\BaseClassesNET.dll
+D:\missplan\MissionPlanner\ExtLibs\BaseClasses\bin\Debug\BaseClassesNET.pdb
+D:\missplan\MissionPlanner\ExtLibs\BaseClasses\obj\Debug\BaseClasses.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\BaseClasses\obj\Debug\BaseClasses.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\BaseClasses\obj\Debug\BaseClassesNET.dll
+D:\missplan\MissionPlanner\ExtLibs\BaseClasses\obj\Debug\BaseClassesNET.pdb

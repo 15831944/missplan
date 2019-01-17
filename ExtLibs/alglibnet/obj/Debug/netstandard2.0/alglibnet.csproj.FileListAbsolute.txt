@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.
 D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.dll
 D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.pdb
+D:\missplan\MissionPlanner\ExtLibs\alglibnet\obj\Debug\netstandard2.0\alglibnet.csprojAssemblyReference.cache

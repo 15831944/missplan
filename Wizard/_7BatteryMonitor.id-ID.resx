@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>What sensor are you using?</value>
+    <value>Apa sensor yang anda pakai?</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
-    <value>What autopilot version do you own?</value>
+    <value>Versi berapa autopilot yang anda miliki?</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Battery Monitor Configuration</value>
+    <value>Konfigurasi Monitor Baterai</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>What size batterys are you using (mah)?</value>
+    <value>Berapa ukuran baterai yang anda pakai (mah)?</value>
   </data>
   <data name="radialGradientBG1.Label.Text" xml:space="preserve">
-    <value>Battery Monitor</value>
+    <value>Monitor Baterai</value>
   </data>
 </root>

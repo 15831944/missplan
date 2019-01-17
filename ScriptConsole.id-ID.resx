@@ -121,7 +121,7 @@
     <value>ScriptConsole</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Print statements in the python code will print to this dialog box</value>
+    <value>Perintah print dalam kode python akan ditampilkan disini</value>
   </data>
   <data name="BUT_clear.Text" xml:space="preserve">
     <value>Clear</value>

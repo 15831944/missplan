@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.Asse
 D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.dll
 D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.pdb
+D:\missplan\MissionPlanner\ExtLibs\Mavlink\obj\Debug\netstandard2.0\MAVLink.csprojAssemblyReference.cache

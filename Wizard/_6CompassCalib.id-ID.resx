@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label2.Text" xml:space="preserve">
-    <value>Compass calibration is important, so your autopilot knows which direction it is pointing. Point every axis north (left,right,front,back,top,bottom) and rotate a full 360 around the left-right axis, for all 6 axis's</value>
+    <value>Pengkalibrasian kompas sangat penting, agar autopilot anda mengetahui arah yang dituju. Point every axis north (kiri,kanan,depan,belakang,atas,bawah) dan putar 360 derajat penuh around the left-right axis, for all 6 axis's</value>
   </data>
   <data name="label3.Text" xml:space="preserve">
     <value>Depending on your hardware, the compass orientation needs to be changed. Please follow the instructions bellow. Make sure to keep the autopilot flat during the orientation.
@@ -127,7 +127,7 @@
 </value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>COMPASS CALIBRATION</value>
+    <value>KALIBRASI KOMPAS</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>.</value>
@@ -136,7 +136,7 @@
     <value>COMPASS ORIENTATION</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
-    <value>Press Start</value>
+    <value>tekan Mulai</value>
   </data>
   <data name="linkLabel1.Text" xml:space="preserve">
     <value>Youtube Example</value>
@@ -145,7 +145,7 @@
     <value>Live Calibration</value>
   </data>
   <data name="BUT_compassorient.Text" xml:space="preserve">
-    <value>Start</value>
+    <value>Mulai</value>
   </data>
   <data name="radialGradientBG1.Label.Text" xml:space="preserve">
     <value>Calibrate your Compass</value>

@@ -1,0 +1,6 @@
+D:\missplan\MissionPlanner\ExtLibs\ExtGuided\obj\Debug\ExtGuided.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\ExtGuided\obj\Debug\ExtGuided.FilePick.resources
+D:\missplan\MissionPlanner\ExtLibs\ExtGuided\obj\Debug\ExtGuided.csproj.GenerateResource.cache
+D:\missplan\MissionPlanner\ExtLibs\ExtGuided\obj\Debug\ExtGuided.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\ExtGuided\obj\Debug\ExtGuided.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\ExtGuided\obj\Debug\ExtGuided.AssemblyInfo.cs

@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lbl_gps.Text" xml:space="preserve">
-    <value>Does the autopilot have gps lock?</value>
+    <value>Apakah autopilot memiliki GPS Lock?</value>
   </data>
   <data name="label10.Text" xml:space="preserve">
     <value>Verify Pre-Arm Test</value>
   </data>
   <data name="lbl_rc.Text" xml:space="preserve">
-    <value>Have you configured your RC transmitter?</value>
+    <value>Apakah anda mengkonfigurasi RC transmitter?</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Verify GPS</value>
@@ -153,7 +153,7 @@ NOTE: this test will attempt to arm your autopilot and props may spin, please re
     <value>checkBox1</value>
   </data>
   <data name="lbl_accel.Text" xml:space="preserve">
-    <value>Have you completed an accel calibration?</value>
+    <value>Apakah anda selesai mengkalibrasi accel?</value>
   </data>
   <data name="chk_accel.Text" xml:space="preserve">
     <value>checkBox2</value>
@@ -173,6 +173,6 @@ NOTE: Props may spin!</value>
     <value>Verify</value>
   </data>
   <data name="lbl_compass.Text" xml:space="preserve">
-    <value>Have you completed a compass calibration?</value>
+    <value>Apakah anda selesai mengkalibrasi kompas?</value>
   </data>
 </root>

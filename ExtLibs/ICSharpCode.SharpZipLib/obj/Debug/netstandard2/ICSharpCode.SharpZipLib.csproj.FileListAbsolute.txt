@@ -7,3 +7,4 @@ D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard
 D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard2\ICSharpCode.SharpZipLib.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard2\ICSharpCode.SharpZipLib.dll
 D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard2\ICSharpCode.SharpZipLib.pdb
+D:\missplan\MissionPlanner\ExtLibs\ICSharpCode.SharpZipLib\obj\Debug\netstandard2\ICSharpCode.SharpZipLib.csprojAssemblyReference.cache

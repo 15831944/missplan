@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="label3.Text" xml:space="preserve">
-    <value>Do you have a airspeed sensor attached?</value>
+    <value>Apakah anda memiliki airspeed sensor yang terpasang?</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>Airspeed</value>
+    <value>Kecepatan udara</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
-    <value>Airspeed:</value>
+    <value>Kecepatan udara: </value>
   </data>
   <data name="CHK_enableairspeed.Text" xml:space="preserve">
-    <value>Enable reading the sensor</value>
+    <value>Aktifkan pembacaan sensor</value>
   </data>
   <data name="radialGradientBG1.Label.Text" xml:space="preserve">
     <value>Optional Items</value>

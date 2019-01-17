@@ -8,3 +8,4 @@ D:\missplan\MissionPlanner\ExtLibs\ZedGraph\obj\Debug\ZedGraph.csproj.CoreCompil
 D:\missplan\MissionPlanner\ExtLibs\ZedGraph\obj\Debug\ZedGraph.csproj.CopyComplete
 D:\missplan\MissionPlanner\ExtLibs\ZedGraph\obj\Debug\ZedGraph.dll
 D:\missplan\MissionPlanner\ExtLibs\ZedGraph\obj\Debug\ZedGraph.pdb
+D:\missplan\MissionPlanner\ExtLibs\ZedGraph\obj\Debug\ZedGraph.csprojAssemblyReference.cache

@@ -28,6 +28,7 @@ namespace MissionPlanner
 {
     public partial class MainV2 : Form
     {
+        ManualResetEvent mre = new ManualResetEvent(false);
         private static readonly ILog log =
             LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
@@ -424,10 +425,11 @@ namespace MissionPlanner
 
         public void updateLayout(object sender, EventArgs e)
         {
+            
             MenuSimulation.Visible = false;
             MenuTerminal.Visible = false;
-            MenuHelp.Visible = DisplayConfiguration.displayHelp;
-            MenuDonate.Visible = DisplayConfiguration.displayDonate;
+            MenuHelp.Visible = false;
+            MenuDonate.Visible = false;
             MissionPlanner.Controls.BackstageView.BackstageView.Advanced = DisplayConfiguration.isAdvancedMode;
 
             if (Settings.Instance.GetBoolean("menu_autohide") != DisplayConfiguration.autoHideMenuForce)
@@ -541,10 +543,12 @@ namespace MissionPlanner
                 MainV2.instance.FlightPlanner.updateDisplayView();
             }
         }
-        
+
 
         public MainV2()
         {
+
+
             log.Info("Mainv2 ctor");
 
             SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
@@ -568,32 +572,46 @@ namespace MissionPlanner
 
             MAVLinkInterface.UpdateADSBPlanePosition += adsb_UpdatePlanePosition;
 
-            MAVLinkInterface.gcssysid = (byte) Settings.Instance.GetByte("gcsid", MAVLinkInterface.gcssysid);
+            MAVLinkInterface.gcssysid = (byte)Settings.Instance.GetByte("gcsid", MAVLinkInterface.gcssysid);
+
+
+
 
             Form splash = Program.Splash;
 
             splash?.Refresh();
 
-            Application.DoEvents();
+            //ConnectOrNo conn = new ConnectOrNo();
+            //conn.Show();
+            //var delay = 0;
+
+            // conn.Show();
+
+
+            //Application.DoEvents();
 
             instance = this;
 
+
             InitializeComponent();
+            ConnectionOptions conn = new ConnectionOptions();
+            conn.ShowDialog();
             try
             {
-                if(Settings.Instance["theme"] != null)
+                if (Settings.Instance["theme"] != null)
                     ThemeManager.SetTheme((ThemeManager.Themes)Enum.Parse(typeof(ThemeManager.Themes), Settings.Instance["theme"]));
             }
             catch
             {
             }
             Utilities.ThemeManager.ApplyThemeTo(this);
+            
             MyView = new MainSwitcher(this);
 
             View = MyView;
 
             //startup console
-            TCPConsole.Write((byte) 'S');
+            TCPConsole.Write((byte)'S');
 
             // define default basestream
             comPort.BaseStream = new SerialPort();
@@ -625,7 +643,7 @@ namespace MissionPlanner
             // proxy loader - dll load now instead of on config form load
             new Transition(new TransitionType_EaseInEaseOut(2000));
 
-            foreach (object obj in Enum.GetValues(typeof (Firmwares)))
+            foreach (object obj in Enum.GetValues(typeof(Firmwares)))
             {
                 _connectionControl.TOOL_APMFirmware.Items.Add(obj);
             }
@@ -659,7 +677,7 @@ namespace MissionPlanner
             string temp2 = Settings.Instance.BaudRate;
             if (!string.IsNullOrEmpty(temp2))
             {
-                var idx =  _connectionControl.CMB_baudrate.FindString(temp2);
+                var idx = _connectionControl.CMB_baudrate.FindString(temp2);
                 if (idx == -1)
                 {
                     _connectionControl.CMB_baudrate.Text = temp2;
@@ -679,7 +697,7 @@ namespace MissionPlanner
                 if (_connectionControl.TOOL_APMFirmware.SelectedIndex == -1)
                     _connectionControl.TOOL_APMFirmware.SelectedIndex = 0;
                 MainV2.comPort.MAV.cs.firmware =
-                    (Firmwares) Enum.Parse(typeof (Firmwares), _connectionControl.TOOL_APMFirmware.Text);
+                    (Firmwares)Enum.Parse(typeof(Firmwares), _connectionControl.TOOL_APMFirmware.Text);
             }
 
             MissionPlanner.Utilities.Tracking.cid = new Guid(Settings.Instance["guid"].ToString());
@@ -729,7 +747,7 @@ namespace MissionPlanner
                 {
                     ThemeManager.SetTheme(
                         (ThemeManager.Themes)
-                            Enum.Parse(typeof (ThemeManager.Themes), Settings.Instance["theme"].ToString()));
+                            Enum.Parse(typeof(ThemeManager.Themes), Settings.Instance["theme"].ToString()));
                 }
                 catch (Exception exception)
                 {
@@ -784,14 +802,14 @@ namespace MissionPlanner
                 log.Info("Create FP");
                 FlightPlanner = new GCSViews.FlightPlanner();
                 //Configuration = new GCSViews.ConfigurationView.Setup();
-                log.Info("Create SIM");
-                Simulation = new SITL();
+                //log.Info("Create SIM");
+                //Simulation = new SITL();
                 //Firmware = new GCSViews.Firmware();
                 //Terminal = new GCSViews.Terminal();
 
                 FlightData.Width = MyView.Width;
                 FlightPlanner.Width = MyView.Width;
-                Simulation.Width = MyView.Width;
+                //Simulation.Width = MyView.Width;
             }
             catch (ArgumentException e)
             {
@@ -876,7 +894,7 @@ namespace MissionPlanner
                 if (Settings.Instance["MainMaximised"] != null)
                 {
                     this.WindowState =
-                        (FormWindowState) Enum.Parse(typeof (FormWindowState), Settings.Instance["MainMaximised"]);
+                        (FormWindowState)Enum.Parse(typeof(FormWindowState), Settings.Instance["MainMaximised"]);
                     // dont allow minimised start state
                     if (this.WindowState == FormWindowState.Minimized)
                     {
@@ -940,7 +958,7 @@ namespace MissionPlanner
                 CustomMessageBox.Show(
                     "NOTE: your attitude rate is 0, the hud tidak akan berfungsi\nRubah di Configuration > Planner > Telemetry Rates");
             }
-            
+
             // create log dir if it doesnt exist
             try
             {
@@ -977,10 +995,12 @@ namespace MissionPlanner
             {
                 this.Icon = Icon.FromHandle(((Bitmap)Program.IconFile).GetHicon());
             }
-
+            
             if (Program.Logo2 != null)
+            
                 MenuArduPilot.Image = Program.Logo2;
-
+            
+            
             if (Program.Logo != null && Program.name == "VVVVZ")
             {
                 MenuDonate.Click -= this.toolStripMenuItem1_Click;
@@ -1005,15 +1025,16 @@ namespace MissionPlanner
             }
 
 
-
+            
             Application.DoEvents();
-
+            //conn.ShowDialog();
             Comports.Add(comPort);
-
+            
             MainV2.comPort.MavChanged += comPort_MavChanged;
 
             // save config to test we have write access
             SaveConfig();
+
         }
 
         void cmb_sysid_Click(object sender, EventArgs e)
@@ -2814,7 +2835,7 @@ namespace MissionPlanner
             // check if its defined, and force to show it if not known about
             if (Settings.Instance["menu_autohide"] == null)
             {
-                Settings.Instance["menu_autohide"] = "false";
+                Settings.Instance["menu_autohide"] = "true";
             }
 
             try
@@ -2867,7 +2888,7 @@ namespace MissionPlanner
 
             // for long running tasks using own threads.
             // for short use threadpool
-
+            
             this.SuspendLayout();
 
             // setup http server
@@ -4104,6 +4125,11 @@ namespace MissionPlanner
                     });
                 }
             }
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+
         }
     }
 }

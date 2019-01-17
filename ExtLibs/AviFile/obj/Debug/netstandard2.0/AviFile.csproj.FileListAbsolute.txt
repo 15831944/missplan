@@ -6,3 +6,4 @@ D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.Asse
 D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.AssemblyInfo.cs
 D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.dll
 D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.pdb
+D:\missplan\MissionPlanner\ExtLibs\AviFile\obj\Debug\netstandard2.0\AviFile.csprojAssemblyReference.cache

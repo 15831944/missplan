@@ -133,7 +133,7 @@
     <value>Pelacak Rumah</value>
   </data>
   <data name="poiaddToolStripMenuItem.Text" xml:space="preserve">
-    <value>Add</value>
+    <value>Tambah</value>
   </data>
   <data name="GeoFencedownloadToolStripMenuItem.Text" xml:space="preserve">
     <value>Download</value>

@@ -146,8 +146,10 @@ namespace MissionPlanner
                 ? File.ReadAllText("version.txt")
                 : System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
             Splash.Text = name + " " + Application.ProductVersion + " build " + strVersion;
-            Splash.Show();
+            //Splash.Show();
 
+            
+            
             Application.DoEvents();
             Application.DoEvents();
 
@@ -273,6 +275,7 @@ namespace MissionPlanner
                 //System.Diagnostics.Process.GetCurrentProcess().PriorityClass = System.Diagnostics.ProcessPriorityClass.RealTime;
                 Thread.CurrentThread.Name = "Base Thread";
                 Application.Run(new MainV2());
+                
             }
             catch (Exception ex)
             {

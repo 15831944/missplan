@@ -1,0 +1,11 @@
+D:\missplan\MissionPlanner\bin\Debug\net461\Installer.exe.config
+D:\missplan\MissionPlanner\bin\Debug\net461\Installer.exe
+D:\missplan\MissionPlanner\bin\Debug\net461\Installer.pdb
+D:\missplan\MissionPlanner\ExtLibs\Installer\obj\Debug\net461\Installer.csprojAssemblyReference.cache
+D:\missplan\MissionPlanner\ExtLibs\Installer\obj\Debug\net461\Installer.Installer.resources
+D:\missplan\MissionPlanner\ExtLibs\Installer\obj\Debug\net461\Installer.csproj.GenerateResource.cache
+D:\missplan\MissionPlanner\ExtLibs\Installer\obj\Debug\net461\Installer.csproj.CoreCompileInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Installer\obj\Debug\net461\Installer.AssemblyInfoInputs.cache
+D:\missplan\MissionPlanner\ExtLibs\Installer\obj\Debug\net461\Installer.AssemblyInfo.cs
+D:\missplan\MissionPlanner\ExtLibs\Installer\obj\Debug\net461\Installer.exe
+D:\missplan\MissionPlanner\ExtLibs\Installer\obj\Debug\net461\Installer.pdb

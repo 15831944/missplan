@@ -142,7 +142,7 @@
     <value>Perubahan target  saat waypoint</value>
   </data>
   <data name="BUT_quickauto.ToolTip" xml:space="preserve">
-    <value>Ubah Modus untuk Automatic</value>
+    <value>Ubah Mode untuk Automatic</value>
   </data>
   <data name="goHereToolStripMenuItem.Text" xml:space="preserve">
     <value>Terbang Kesini</value>
@@ -304,7 +304,7 @@
     <value>Lepas Landas</value>
   </data>
   <data name="BUT_RAWSensor.ToolTip" xml:space="preserve">
-    <value>Lihat Gyro baku dan nilai-nilai Accel, dan Radio Baku in / ou</value>
+    <value>Lihat RAW Gyro dan nilai-nilai Accel, dan Radio RAW in / out</value>
   </data>
   <data name="setAspectRatioToolStripMenuItem.Text" xml:space="preserve">
     <value>Set Aspect Ratio</value>

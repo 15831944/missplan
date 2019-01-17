@@ -121,6 +121,6 @@
     <value>Serial Output NMEA</value>
   </data>
   <data name="BUT_connect.Text" xml:space="preserve">
-    <value>Connect</value>
+    <value>Menghubungkan</value>
   </data>
 </root>

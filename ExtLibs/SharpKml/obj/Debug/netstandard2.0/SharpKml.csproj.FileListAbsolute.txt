@@ -9,3 +9,4 @@ D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.As
 D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.csproj.CopyComplete
 D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.dll
 D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.pdb
+D:\missplan\MissionPlanner\ExtLibs\SharpKml\obj\Debug\netstandard2.0\SharpKml.csprojAssemblyReference.cache
